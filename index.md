@@ -14,27 +14,27 @@ info:
  course_number: CPP 524 
  course_level: Graduate 
  course_website: 'https://canvas.asu.edu/courses/29527'
- course_start_end_dates: Jan 13 to March 03, 2020  
+ course_start_end_dates: July 1 to Aug. 11, 2020  
  course_prerequisites: College Level Intro. to Stats 
  class_meets_when:  Asynchronous  
  class_meets_where:  'https://asu.zoom.us/j/944016877'
  review_sessions_when: TBD 
- review_sessions_where: UCENT Policy Analytics Lab 4th Floor + Zoom
+ review_sessions_where: Zoom
  discussion_board_url: 'https://ds4ps.org/cpp-523-fall-2019/help/'
 
 instructor:
--  name: Jesse Lecy, PhD
+-  name: Leonor Camarena, PhD
    title: Professor
-   email: jdlecy@asu.edu
-   office_location: UCENT 517
-   website_url: www.lecy.info
-   github_url: 'https://github.com/lecy' 
+   email: lcamaren@asu.edu
+   office_location: 
+   website_url: https://leonorcamarena.weebly.com/
+   github_url: 'https://github.com/CamarenaL' 
    twitter_url: 
-   scholar_url: 'https://scholar.google.com/citations?user=Ir8H4wMAAAAJ&hl=en'
+   scholar_url: 'https://scholar.google.com/citations?user=ldgyYjEAAAAJ&hl=en&authuser=1'
    linked_in_url:
    office_hours_time: Flexible
-   office_hours_location:  Zoom or Office
-   office_hours_app_url:  'https://calendly.com/lecy/15min'
+   office_hours_location:  Zoom
+   office_hours_app_url:  'https://calendly.com/leonorcamarena/15min'
    
 
 textbooks:
