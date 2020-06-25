@@ -20,7 +20,7 @@ info:
  class_meets_where:  'https://asu.zoom.us/j/5933872545'
  review_sessions_when: TBD 
  review_sessions_where: Zoom
- discussion_board_url: 'https://ds4ps.org/cpp-523-fall-2019/help/'
+ discussion_board_url: 'https://ds4ps.org/cpp-524-spr-2020/help/'
 
 instructor:
 -  name: Leonor Camarena, PhD
