@@ -220,9 +220,7 @@ Please note: the course instructor may from time to time adjust assigned reading
 
 ### Unit 5 - Effect Size
 
-### Unit 6 - Theories of Change 
-
-### Unit 7 - Work on Research Design Paper
+### Unit 6 - Work on Research Design Paper
 
 
 <br>
