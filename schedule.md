@@ -3,7 +3,7 @@ layout: schedule
 title: Schedule
 
 canvas: 
-  assignment_url: 'https://canvas.asu.edu/courses/41395/assignments'
+  assignment_url: 'https://canvas.asu.edu/courses/56453/assignments'
   
 ---
  
@@ -529,7 +529,7 @@ We will use a check-list approach that we call a **Campbell Score**, which is a 
 
 
 
-*** { @unit = "TUE Jan 21", @title = "LAB 01", @assignment, @foldout   }
+*** { @unit = "TUE Jul 14th", @title = "LAB 01", @assignment, @foldout   }
 
 
 ## Lab 01 - Counterfactual Reasoning with RCTs
@@ -580,7 +580,7 @@ And submit via Canvas.
 
 
 
-*** { @unit = "FRI Jan 24th", @title = "News Article Post", @assignment, @foldout }
+*** { @unit = "FRI Jul 17th", @title = "News Article Post", @assignment, @foldout }
 
 <br> 
 
@@ -777,7 +777,7 @@ After mastering Campbell Scores you will be able to:
 <br>
 
 
-*** { @unit = "TUE Feb 11th", @title = "LAB 02", @assignment, @foldout  }
+*** { @unit = "TUE Jul 21st", @title = "LAB 02", @assignment, @foldout  }
 
 <br>
 
@@ -846,7 +846,7 @@ Case studies will again be from *Bingham, R., & Felbinger, C. (2002). Evaluation
 
 
 
-*** { @unit = "FRI Feb 21st", @title = "LAB 03", @assignment, @foldout  }
+*** { @unit = "FRI Jul 31st", @title = "LAB 03", @assignment, @foldout  }
 
 <br>
 <br>
@@ -882,7 +882,7 @@ When you are complete:
 
 
 
-** Week 5 - Work on Campbell Score Studies
+** Week 3 - Work on Campbell Score Studies
 
 *** { @unit = "", @title = "Unit Overview", @reading  }
 
@@ -915,7 +915,7 @@ When you are complete:
 
 # Lab 04
 
-Lab 04 is being combined with an evaluation regression exercise in place of a quiz for the semester. See the **Final Lab** due on March 3rd under the Week 7 tab for details. 
+Lab 04 is being combined with an evaluation regression exercise in place of a quiz for the semester. See the **Final Lab** due on August 11th under the Week 5 tab for details. 
 
 
 <br>
@@ -924,49 +924,7 @@ Lab 04 is being combined with an evaluation regression exercise in place of a qu
 
 
 
-
-
-
-
-
-
-
-
-** Week 6 - Intermission
-
-
-
-
-
-
-
-
-*** { @unit = "", @title = "No lab - work on paper", @assignment }
-
-<br>
-<br>
-
-# Lab 06
-
-
-
-<a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-06-instructions.html">Lab-06 Instructions</a>
-
-When you are complete:
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
-
-<br>
-<br>
-
-
-
-
-
-
-
-
-** Week 7 - Research Design Projects 
+** Week 5 - Research Design Projects 
 
 
 
@@ -994,7 +952,7 @@ I will be availble throughout the week for appointments. I would encourage you t
 
 
 
-*** { @unit = "TUES Mar 3rd", @title = "Final Lab", @assignment, @foldout }
+*** { @unit = "TUES Aug 11th", @title = "Final Lab", @assignment, @foldout }
 
 <br>
 <br>
@@ -1022,7 +980,7 @@ You might find it helpful to review the use of dummy variables in regression mod
 
 
 
-*** { @unit = "TUE Mar 3rd", @title = "Research Design Paper", @assignment, @foldout }
+*** { @unit = "TUE Aug 11th", @title = "Research Design Paper", @assignment, @foldout }
 
 <br>
 <br>
