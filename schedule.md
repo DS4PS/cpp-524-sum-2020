@@ -535,7 +535,7 @@ We will use a check-list approach that we call a **Campbell Score**, which is a 
 
 
 
-*** { @unit = "TUE Jul 14th", @title = "LAB 01", @assignment, @foldout   }
+*** { @unit = "WED Jul 8th", @title = "LAB 01", @assignment, @foldout   }
 
 
 ## Lab 01 - Counterfactual Reasoning with RCTs
@@ -593,7 +593,7 @@ And submit via Canvas.
 
 
 
-*** { @unit = "FRI Jul 17th", @title = "News Article Post", @assignment, @foldout }
+*** { @unit = "TUE Jul 14th", @title = "News Article Post", @assignment, @foldout }
 
 <br> 
 
