@@ -983,7 +983,7 @@ I will be availble throughout the week for appointments. I would encourage you t
 
 
 
-*** { @unit = "TUES Aug 11th", @title = "Final Lab", @assignment, @foldout }
+*** { @unit = "TUE Aug 11th", @title = "Final Lab", @assignment, @foldout }
 
 <br>
 <br>
