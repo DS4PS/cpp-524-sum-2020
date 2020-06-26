@@ -165,7 +165,13 @@ And to get a flavor for debates around approaches to measuring program impact in
 
 
 
-
+<!--- 
+######################################################
+####
+####      Week 1 - Counterfactual Analysis
+####
+######################################################
+-->
 
 
 ** Week 1 - Counterfactual Analysis
@@ -573,6 +579,13 @@ And submit via Canvas.
 
 
 
+<!--- 
+######################################################
+####
+####      Week 2 - Varieties of the Counterfactual
+####
+######################################################
+-->
 
 
 ** Week 2 - Varieties of the Counterfactual  
@@ -730,7 +743,13 @@ When you are complete:
 
 
 
-
+<!--- 
+######################################################
+####
+####      Week 3 - Campbell Scores
+####
+######################################################
+-->
 
 ** Week 3 - Campbell Scores 
 
@@ -814,7 +833,13 @@ When you are complete:
 
 
 
-
+<!--- 
+######################################################
+####
+####      Week 4 - More Campbell Scores
+####
+######################################################
+-->
 
 ** Week 4 - More Campbell Scores 
 
@@ -881,7 +906,6 @@ When you are complete:
 
 
 
-
 ** Week 3 - Work on Campbell Score Studies
 
 *** { @unit = "", @title = "Unit Overview", @reading  }
@@ -922,6 +946,13 @@ Lab 04 is being combined with an evaluation regression exercise in place of a qu
 <br>
 
 
+<!--- 
+######################################################
+####
+####      Week 5 - Research Design Projects 
+####
+######################################################
+-->
 
 
 ** Week 5 - Research Design Projects 
