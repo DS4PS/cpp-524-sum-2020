@@ -15,7 +15,7 @@ info:
  course_level: Graduate 
  course_website: 'https://canvas.asu.edu/courses/56453'
  course_start_end_dates: July 1 to Aug. 11, 2020  
- course_prerequisites: College Level Intro. to Stats 
+ course_prerequisites: CPP 523 or similar regression course
  class_meets_when:  Asynchronous  
  class_meets_where:  'https://asu.zoom.us/j/5933872545'
  review_sessions_when: TBD 
