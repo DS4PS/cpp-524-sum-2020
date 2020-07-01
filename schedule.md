@@ -110,7 +110,7 @@ For Lab-01 you will read an example of a Randomized Control Trial used to study 
 
 
 *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
-* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/evaluation-in-practice-CH5-pre-post-with-control.pdf)]
+* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](pubs/eval-in-practice-CH5-randomized-control-trial.pdf)]
 
 
 <br>
