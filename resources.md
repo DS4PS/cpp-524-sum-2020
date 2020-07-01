@@ -7,21 +7,35 @@ title: Resources
   
 <br><br>
 
-## Handouts 
+## The Field of Program Eval
 
-* Common Statistics Notation [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Common-Statistics-Notation.pdf) ] 
-* Regression Review Assessment  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Regression-Review-Self-Test.pdf) ]
-* Anscomb's Quartet  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Anscombes-Quartet.pdf) ]
+[Overview](prog-eval.html)
+
+## Getting Started with R
+
+The [R Overview](../r-overview/) page provides background on installing R and RStudio and using markdown to create data-driven documents. 
+
+## Stats Review 
+
+For a refresher on core stats concepts that serve as pre-requisites to this course, visit the [stats review page](../stats-review/). 
+
+## Course Handouts 
+
+* Regression Review Assessment  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression-Review-Self-Test.pdf) ]
+* Common Statistics Notation [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Common-Statistics-Notation.pdf) ] 
+* Anscomb's Quartet  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Anscombes-Quartet.pdf) ]
 * Omitted Variable Bias Calculation  
-* Seven Sins of Regression  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Seven-Sins-of-Regression-Analysis.pdf) ]
-* Marginal Effects in Quadratic Model  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Marginal-Effects-in-Quadratic-Regression-Models.pdf) ]
-* Dummy Variables with Interactions  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Regression-with-Interaction-Effects.pdf) ]  
-* A Taxonomy of Control Variables [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/taxonomy-of-control-variables.pdf) ]  
+* Seven Sins of Regression  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Seven-Sins-of-Regression-Analysis.pdf) ]
+* Marginal Effects in Quadratic Model  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Marginal-Effects-in-Quadratic-Regression-Models.pdf) ]
+* Dummy Variables with Interactions  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression-with-Interaction-Effects.pdf) ]  
+* A Taxonomy of Control Variables [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/taxonomy-of-control-variables.pdf) ]  
 
 
-## Regression Tutorial for R
+## Regression Tutorials for R
 
-* UC Business Analytics[ [link](https://uc-r.github.io/linear_regression) ]
+The following provide useful tutorials that offer R syntax for common regression techniques. 
+
+* UC Business Analytics [ [link](https://uc-r.github.io/linear_regression) ]
 * By Manny Gimond [ [link](http://mgimond.github.io/Stats-in-R/regression.html) ]
 * Listen Data [ [link](https://www.listendata.com/2015/09/linear-regression-with-r.html) ]
 * Machine Learning Plus [ [link](https://www.machinelearningplus.com/machine-learning/complete-introduction-linear-regression-r/) ]
@@ -30,7 +44,7 @@ title: Resources
 * much nicer but more complex animations [ [link](https://rpsychologist.com/archives) ]
   - [Correlation w Venn Diagrams](https://rpsychologist.com/d3/correlation/)
   - [confidence intervals](https://rpsychologist.com/d3/CI/)
-  
+* Mathematics in R Markdown [ [link](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html) ]  
 
 ## Creating Nice Tables in RMD
 
@@ -49,10 +63,10 @@ title: Resources
 * xtable: formatting tables 
 
 
-## Reference Books
+## Reference Texts
 
 * Intro to Stats review in R [ [teacup giraffe textbook](https://tinystats.github.io/teacups-giraffes-and-statistics/) ]
-* [OpenIntro Statistics](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/pubs/openintro-statistics-sample.pdf)
+* [OpenIntro Statistics](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/openintro-statistics-sample.pdf)
   - CH-08 Intro to Regression 
 * [Discovering Statistics in R](https://www.amazon.com/Discovering-Statistics-Using-Andy-Field/dp/1446200469)
   - Comprehensive guide to using R for a variety of statistical models 
