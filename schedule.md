@@ -110,7 +110,7 @@ For Lab-01 you will read an example of a Randomized Control Trial used to study 
 
 
 *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
-* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](pubs/eval-in-practice-CH5-randomized-control-trial.pdf)]
+* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](../pubs/eval-in-practice-CH5-randomized-control-trial.pdf)]
 
 
 <br>
@@ -124,7 +124,7 @@ For Lab-01 you will read an example of a Randomized Control Trial used to study 
 
 ### Required:
 
-[Core Concepts in Research Design](core-concepts.html) 
+[Core Concepts in Research Design](../core-concepts.html) 
 
 *Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank.* [[pdf](https://openknowledge.worldbank.org/bitstream/handle/10986/25030/9781464807794.pdf?sequence=2&isAllowed=y)]
 * Chapter 3. Causal Inference and Counterfactuals 
