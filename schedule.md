@@ -326,7 +326,7 @@ What has to be true for a control variable to make an effect disappear?
 
 
 
-*** { @unit = "FRI Jul 17th", @title = "Final Project Step-01", @assignment, @foldout }
+*** { @unit = "FRI Jul 17th", @title = "Research Design Memo Step-01", @assignment, @foldout }
 
 <br>
 <br>
@@ -436,7 +436,7 @@ When you are complete:
 
 
 
-*** { @unit = "FRI Jul 24th", @title = "Final Project Step-02", @assignment, @foldout }
+*** { @unit = "FRI Jul 24th", @title = "Research Design Memo Step-02", @assignment, @foldout }
 
 <br>
 <br>
@@ -537,7 +537,7 @@ When you are complete:
 
 
 
-*** { @unit = "FRI Jul 31st", @title = "Final Project Step-03", @assignment, @foldout }
+*** { @unit = "FRI Jul 31st", @title = "Research Design Memo Step-03", @assignment, @foldout }
 
 <br>
 <br>
