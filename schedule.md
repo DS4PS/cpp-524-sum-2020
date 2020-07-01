@@ -153,9 +153,22 @@ And submit via Canvas.
 
 
 
+*** { @unit = ", @title = "Research Design Memo", @assignment, @foldout   }
+
+## Final Memo
 
 
+Choose a well-established program that has a clear goal, a clear scope, and where you expect to achieve impact in a relatively short time frame (a few years). The point of the assignment is to practice thinking through and communicating important evaluation considerations. 
 
+Keep the program model simple! If you select a complicated program that has poorly-defined goals and has a complex implementation environment it will be difficult to tell whether things are not clear because you do not understand the program or you do not understand the material. So keep the program model as simple as possible. You can limit the scope by designing the evaluation for a small part of a larger program. 
+
+By the time you are done writing up details you will likely have 10 to 20 pages of text (double-spaced). 
+
+[Detailed Instructions](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/final-paper-instructions.pdf)
+
+You have project steps due throughout the term. These will be marked but not graded as a way to give you feedback on steps of the project. 
+
+<br>
 
 
 
