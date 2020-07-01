@@ -123,18 +123,24 @@ Reichardt, C. S., & Bormann, C. A. (1994). Using regression models to estimate p
 
 ## Lab 01 - Counterfactual Reasoning with RCTs
 
-This lab covers the following topics: 
+Randomized Control Trials or RCTs constitute the most rigorous version of counterfactual analysis. Randomization of study participants into the treatment and control groups is an effective way to ensure that the two groups are statistically identical prior to the program, so all observed differences between the groups after the program concludes can in theory be attributed to program impact. 
+
+RCTs in practice, like any research design, can get messy and complicated. Implemention is important. Even if the study starts with equivalent groups things like attrition can still lead to selection problems that bias estimates of program impact. 
+
+This lab presents a randomized field experiment so that you can get a feel for what they look like in practice. 
+
+Read: *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
+* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](../pubs/eval-in-practice-CH5-randomized-control-trial.pdf)] 
+
+----
+
+
+You will encounter following topics: 
 
 * Randomization processes 
 * Complex control groups  
 * Program "treatment" 
 * Theory of change 
-
------
-
-Read: *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
-* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](../pubs/eval-in-practice-CH5-randomized-control-trial.pdf)] 
-
 
 Answer the questions in the word document: 
 
