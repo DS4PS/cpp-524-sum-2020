@@ -153,7 +153,7 @@ And submit via Canvas.
 
 
 
-*** { @unit = ", @title = "Research Design Memo", @assignment, @foldout   }
+*** { @unit = "", @title = "Research Design Memo", @assignment, @foldout   }
 
 ## Final Memo
 
