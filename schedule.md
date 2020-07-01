@@ -421,7 +421,7 @@ After mastering Campbell Scores you will be able to:
 <br>
 
 
-*** { @unit = "TUE Jul 21st", @title = "LAB 03", @assignment, @foldout  }
+*** { @unit = "WED Jul 22nd", @title = "LAB 03", @assignment, @foldout  }
 
 <br>
 
@@ -518,7 +518,7 @@ Case studies will again be from *Bingham, R., & Felbinger, C. (2002). Evaluation
 
 
 
-*** { @unit = "FRI Jul 31st", @title = "LAB 04", @assignment, @foldout  }
+*** { @unit = "WED Jul 29th", @title = "LAB 04", @assignment, @foldout  }
 
 <br>
 <br>
@@ -553,7 +553,7 @@ When you are complete:
 
 
 
-*** { @unit = "FRI Jul 24th", @title = "Final Project Step-03", @assignment, @foldout }
+*** { @unit = "FRI Jul 31st", @title = "Final Project Step-03", @assignment, @foldout }
 
 <br>
 <br>
@@ -617,7 +617,7 @@ At this point you should have feedback on your research design memo and practice
 
 
 
-*** { @unit = "TUE Aug 11th", @title = "LAB 05", @assignment, @foldout }
+*** { @unit = "WED Aug 5th", @title = "LAB 05", @assignment, @foldout }
 
 <br>
 <br>
@@ -652,6 +652,17 @@ You might find it helpful to review the use of dummy variables in regression mod
 <br>
 
 
+
+<!--- 
+######################################################
+####
+####      Week 6 - Research Design Projects 
+####
+######################################################
+-->
+
+
+** Week 6 - Research Design Projects 
 
 
 *** { @unit = "TUE Aug 11th", @title = "Research Design Memo", @assignment, @foldout }
