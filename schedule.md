@@ -211,8 +211,6 @@ This week introduces the notion of counterfactual reasoning using quasi-experime
   - Pre-study equivalence 
   - Tests for non-random attrition 
 
-<br> 
-
 * [**Varieties of the Counterfactual**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
 
   - Pre-post with comparison group design 
@@ -221,7 +219,7 @@ This week introduces the notion of counterfactual reasoning using quasi-experime
   - Reflexive design 
 
 * [**Hypothesis-Testing With Dummy Variables **](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/hypotheses-tests-with-dummy-variables.pdf)
-)
+
 
 ### Recommended 
 
