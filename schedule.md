@@ -225,7 +225,7 @@ This week introduces the notion of counterfactual reasoning using quasi-experime
   - Post-test only design 
   - Reflexive design 
 
-* [**Hypothesis-Testing With Dummy Variables **](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/hypotheses-tests-with-dummy-variables.pdf)
+* [**Hypothesis-Testing With Dummy Variables**](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/hypotheses-tests-with-dummy-variables.pdf)
 
 
 ### Recommended 
