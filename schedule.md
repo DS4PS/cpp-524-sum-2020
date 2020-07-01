@@ -224,7 +224,7 @@ For Lab-01 you will read an example of a Randomized Control Trial used to study 
 
 ### Required:
 
-*Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank.* [[pdf](https://siteresources.worldbank.org/EXTHDOFFICE/Resources/5485726-1295455628620/Impact_Evaluation_in_Practice.pdf)]
+*Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank.* [[pdf](https://openknowledge.worldbank.org/bitstream/handle/10986/25030/9781464807794.pdf?sequence=2&isAllowed=y)]
 * Chapter 3. Causal Inference and Counterfactuals 
 * Chapter 4. Randomized Selection Methods  
 
@@ -1031,7 +1031,7 @@ By the time you are done writing up details you will likely have 10 to 20 pages 
 
 ### Submit Your Paper
 
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Your Paper</a>
+<a class="uk-button uk-button-primary" href="{{https://canvas.asu.edu/courses/56453/assignments/1339818}}">Submit Your Paper</a>
 
 
 <br>
