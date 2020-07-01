@@ -158,11 +158,10 @@ Letter grades comport with a traditional set of intervals:
 
 The assigned work for the term comes in the form of four elements, described below:
 
-- **Weekly Labs (50%):**  Each week you will receive a lab that will help you synthesize the lectures from the week though exercises that involve data, analysis, and important formulas from the lectures. These labs contain exercises that are similar in form or difficulty to what will be presented on the final exam. They are graded pass / fail by the instructors based upon an assessment of whether you have sincerely attempted the lab and answered over half of the questions correctly. This is designed to hold you accountable for the material, but not create anxiety about perfection. Each lab is worth 10 points so that you can drop one lab. 
+- **Weekly Labs (60%):**  Each week you will receive a lab that will help you synthesize the lectures from the week though exercises that involve data, analysis, and important formulas from the lectures. The first four labs are worth 10 points and the final lab is worth 20 points. **Labs are graded this term.** 
 
 - **Final Paper - Research Design (40%):**  You will design a hypothetical evaluation of a real-world program by applying concepts from this class. You do not need to collect and analyze data for the assignment, but you do need to provide background material on the program you decide to evaluate. Your grade will be based upon how complete the assignment is and how you apply concepts from this class. To assist with the direction of this assignment there will be weekly submissions beginning from week 2 through the end of the course that will allow you to receive feedback from me on the final assignment step-by-step. These weekly submissions will not be graded but they will allow you to make progress to your final assignment and receive direct feedback from me. 
 
-- **Final Exam (10%):**  The exam will be review of topics covered on the labs. It will test for key vocabular (like the difference between the Intention to Treat measure and the Treatment on the Treated measure), and concepts like tests for non-random attrition. 
 
 
 ## D. General Grading Rubric for Written Work
@@ -179,7 +178,7 @@ The final project will be accompanied by a rubric describing the allocation of p
 
 ## E. Late and Missing Assignments
 
-Grades for the course are largely based on weekly labs. Assigned work is accompanied by detailed instructions, adequate time for completion and opportunities to consult the instructor with questions. As a result, each assignment element in the course is expected to be completed in a timely fashion by the due date. Once solutions are posted it is no longer possible to receive points for assignments. 
+Grades for the course are largely based on weekly labs. Assigned work is accompanied by detailed instructions, adequate time for completion and opportunities to consult the instructor with questions. As a result, each assignment element in the course is expected to be completed in a timely fashion by the due date. **Once solutions are posted it is no longer possible to receive points for assignments.**
 
 ## F.  Course Communications and Instructor Feedback:
 
