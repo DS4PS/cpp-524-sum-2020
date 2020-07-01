@@ -452,7 +452,7 @@ When you are complete:
 
 
 
-*** { @unit = "WED Jul 22th", @title = "Final Project Step-02", @assignment, @foldout }
+*** { @unit = "FRI Jul 24th", @title = "Final Project Step-02", @assignment, @foldout }
 
 <br>
 <br>
