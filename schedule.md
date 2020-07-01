@@ -339,7 +339,7 @@ For the first step of your project you will fill out a one-page form to describe
 
 This first step is designed to get feedback from the instructor in order to ensure you have picked an appropriate topic for the assignment. It is marked but not graded. 
 
-<a class="uk-button uk-button-default" href="">Lab-02 Instructions</a>
+<a class="uk-button uk-button-default" href="">Instructions</a>
 
 When you are complete:
 
