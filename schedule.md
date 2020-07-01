@@ -97,28 +97,6 @@ This section provides introduces the concept of a counterfactual reasoning. Key 
 Once you have completed this section you will be able to construct key elements of a randomized control trial to determine if it has been implemented correctly. 
 
 
-
-## Lab Preview 
-
-For Lab-01 you will read an example of a Randomized Control Trial used to study a nutrition and early childhood education program in Columbia. 
-
-*Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
-* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](../pubs/eval-in-practice-CH5-randomized-control-trial.pdf)]
-
-The lab asks for you to report on features of the research design and identify core concepts in the study:
-
-* The control group 
-* The program theory 
-* The treatment 
-* Treatment duration vs study length 
-* Confounding factors 
-
-
-<br>
-<br>
-
-
-
 ## Assigned and Recommended Articles or Chapters
 
 ### Required:
@@ -134,6 +112,9 @@ The lab asks for you to report on features of the research design and identify c
 Reichardt, C. S., & Bormann, C. A. (1994). Using regression models to estimate program effects. Handbook of practical program evaluation, 417-455. [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/pubs/Estimating%20Program%20Effects%20Using%20Regression%20Models.pdf) ]
 
 
+
+<br>
+<br>
 
 
 
