@@ -119,8 +119,6 @@ The lab asks for you to report on features of the research design and identify c
 
 
 
-*** { @unit = "", @title = "Required Reading", @reading, @foldout  }
-
 ## Assigned and Recommended Articles or Chapters
 
 ### Required:
@@ -130,12 +128,6 @@ The lab asks for you to report on features of the research design and identify c
 *Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank.* [[pdf](https://openknowledge.worldbank.org/bitstream/handle/10986/25030/9781464807794.pdf?sequence=2&isAllowed=y)]
 * Chapter 3. Causal Inference and Counterfactuals 
 * Chapter 4. Randomized Selection Methods  
-
-### For the Lab:
-
-*Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
-* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](../pubs/eval-in-practice-CH5-randomized-control-trial.pdf)]
-
 
 ### Background: 
 
@@ -376,7 +368,7 @@ When you are complete:
 
 ** Week 3 - Campbell Scores 
 
-*** { @unit = "", @title = "Unit Overview", @foldout}
+*** { @unit = "", @title = "Unit Overview", @reading, @foldout}
 
 ## Description 
 
@@ -395,10 +387,6 @@ After mastering Campbell Scores you will be able to:
 <br>
 <br>
 
-*** { @unit = "", @title = "Lecture Notes", @reading, @foldout  }
-
-<br>
-<br>
 
 ## Lecture Materials
 
