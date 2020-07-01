@@ -3,6 +3,10 @@ layout: default
 title: Core Concepts in Research Design
 ---
 
+
+
+
+
 <div class = "uk-container uk-container-small">
   
 <br><br>
@@ -11,7 +15,7 @@ title: Core Concepts in Research Design
 
 -----
 
-**The counterfactual is operationalized by identifying a group that you believe represents what the treatment group would be like without the treatment.**
+**The counterfactual is operationalized by identifying a group that you believe represents what the treatment group would look like if they receive no treatment.**
 
 ----
 
@@ -301,6 +305,36 @@ We will use a check-list approach that we call a **Campbell Score**, which is a 
 
 <br>
 <br>
+
+
+
+
+
+<style> 
+body {
+   font-family: "Roboto", sans-serif;
+}
+ 
+p.italic {
+  font-style: italic;
+  color: black !important;
+}
+td {
+  text-align: left;
+}
+td.i {
+  text-align: center;
+}
+iframe {
+  align: middle;
+}
+em {
+  color: black !important;
+}
+article {
+  padding-left:20%;
+}
+</style>
 
 
 
