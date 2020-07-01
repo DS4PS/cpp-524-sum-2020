@@ -6,17 +6,7 @@
 
 # Site title and description
 title:              DS4PS
-description:        Intro. course in data-drive management
-
-# Site subpath, e.g. /blog
-url :               "https://ds4ps.github.io"
-baseurl:            "/cpp-524-spr-2020"
-course_url:         "http://ds4ps.org/cpp-524-spr-2020/"
-
-# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:          /:title/
-
-
+description:        Intro course in research design
 
 # Header text on the left
 brand:
@@ -24,6 +14,18 @@ brand:
     text:           "Program Eval"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
        # in the default html file add extra fav icons to header for parts II and III
 
+
+# Site subpath, e.g. /blog
+url :               "https://ds4ps.github.io"
+baseurl:            "/cpp-524-sum-2020"
+course_url:         "http://ds4ps.org/cpp-524-sum-2020/"
+
+github_info:
+    username:          DS4PS # Github location of the course
+    branch:            master
+    website-repo:      cpp-524-sum-2020
+    course-repo:       cpp-524-sum-2020
+    
 
 # header color set at assets/css/custom.css under default_nav and footer background-color
 
@@ -33,7 +35,7 @@ header:
 - title: Course Schedule
   url: schedule/
 - title: Yellowdig
-  url: https://canvas.asu.edu/courses/41395/assignments/1105458
+  url: https://canvas.asu.edu/courses/56453/assignments/1339826
 - title: Resources 
   url: resources/
 - title: Get Help
@@ -42,22 +44,24 @@ header:
 
 
 
+
+
+
+# IGNORE MOST OF THESE SETTINGS
+
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title/
+
 # Default author settings
 author:
-    name:       Jesse Lecy
-    github:     lecy   # Github username for avatar
-
-github_info:
-    username:          DS4PS # Github location of the course
-    branch:            master
-    website-repo:      cpp-524-spr-2020
-    course-repo:       cpp-524-spr-2020
+    name:       Leonor Camarena
+    github:     CamarenaL   # Github username for avatar
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
-    jesse:
-        name:       Jesse Lecy
-        github:     lecy    # Github username for avatar
+    leonor:
+        name:       Leonor Camarena
+        github:     CamarenaL    # Github username for avatar
 
 # Social icons displayed in footer
 social:

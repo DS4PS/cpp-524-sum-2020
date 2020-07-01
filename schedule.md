@@ -55,105 +55,6 @@ article {
 
 
 
-** Review
-
-
-*** { @unit = "", @title = "Overview of the Program Evaluation", @lecture, @foldout  }
-
-<br>
-<br>
-
-## Evidence-Based Practices 
-
-![](https://physics.aps.org/assets/73b0590c-2226-44f6-852a-fa23e6ef3b76/e86_2.png) 
-
-What does it mean to live in an evidence-based world? How do we become more data-driven? 
-
-It turns out that using data to improve decision-making and organizatoinal performance is not a trivial affair because of a little problem called omitted variable bias (correlation does not equal causation). As a result, we need to combine judicious analytical techniques with feasible approaches to research design in order to understand **causal impact** of social programs. 
-
-Here is a great introduction to a case study that uses evaluation to better understant the impact of a government program by getting past anecdotes to measure program impact.
-
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N8rD844McrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
-<br>
-
-
-## Understanding Causal Impact Without Randomized Control Trials
-
-In most cases we don't have resources for large-scale Randomized Control Studies. They typically cost millions of dollars, are sometime unethical, and are often times not feasible. For example, does free trade prevent war? How do you randomized free trade across countries?
-
-Statistics and econometricians have spent 75 years developing powerful regression tools that can be used with observational data and clever quasi-experimental research designs to tease out program impact when RCT's are not possible. The courses in the Foundations of Program Evaluation sequence build the tools to deploy these methods.
-
-* Foundations of Eval I covers the mechanics of regression.
-* Foundations of Eval II covers counterfactual analysis and quasi-experimental approaches to research design. 
-* Foundations of Eval III covers seven regression models used in causal analysis (for example, [interrupted time series](https://ds4ps.org/PROG-EVAL-III/TimeSeries.html)).
-
-Let's start with a simple example. Is caffeine good for you? 
-
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2TRcFpytYT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br> 
-
-What evidence is used to create these assertions? [ [link](https://www.hsph.harvard.edu/news/hsph-in-the-news/coffee-depression-women-ascherio-lucas/) ]
-
-Can you conduct a Randomized Control Trial to study the effects of caffeine on mental health over a long period of time? Is this correlation or causation?  
-
-How can we be sure we are measuring the causal impact of coffee on health? 
-
-<br>
-
-### Why is evidence-based management hard?
-
-Just listen to this summary of current knowledge on the topic, then try to succinctly translate it to a rule of thumb physicians should use on whether to recommend coffee to patients. 
-
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OvDuBVBoV3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
-<br>
-
-
-
-
-
-
-*** { @unit = "", @title = "Useful Background Reading", @reading, @foldout  }
-
-
-<br>
-<br>
-
-![](https://image.shutterstock.com/image-vector/banner-evaluation-concept-assessment-analysis-260nw-1339409468.jpg)
-
-<br>
-
-## Program Impact 
-
-This course provides foundational skills in quantitative program evaluation:
-
-**Reichardt, C. S., & Bormann, C. A. (1994). Using regression models to estimate program effects. Handbook of practical program evaluation, 417-455. [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/pubs/Estimating%20Program%20Effects%20Using%20Regression%20Models.pdf) ]**
-
-## The Broader Field of Evaluation 
-
-Program evaluation is a large field that deploys a diversity of methodologies beyond quantitative modeling and impact analysis. We focus heavily on the quantitative skills in the Foundations of Eval I, II, and III in this program because data is hard to use, so you need several courses to build a skill set. Qualitative and case-study approaches build from the same foundations in research design, so you can more fully develop some of those skills drawing from knowledge of formal modeling and inference.
-
-For some useful context on evaluation as a field, this short (6-page overview) is helpful:
-
-**McNamara, C. (2008). Basic guide to program evaluation. Free Management Library. [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/pubs/A-Basic-Guide-to-Program-Evaluation.pdf) ]**
-
-And to get a flavor for debates around approaches to measuring program impact in evaluation:
-
-**White, H. (2010). A contribution to current debates in impact evaluation. Evaluation, 16(2), 153-164. [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/pubs/Reflections-on-Impact-Evaluation-White.pdf) ]**
-
-
-<br>
-<br>
 
 
 
@@ -164,8 +65,13 @@ And to get a flavor for debates around approaches to measuring program impact in
 
 
 
-
-
+<!--- 
+######################################################
+####
+####      Week 1 - Counterfactual Analysis
+####
+######################################################
+-->
 
 
 ** Week 1 - Counterfactual Analysis
@@ -188,23 +94,24 @@ This section provides introduces the concept of a counterfactual reasoning. Key 
 
 ## Learning Objectives
 
-Once you have completed this section you will be able to identify and  
+Once you have completed this section you will be able to construct key elements of a randomized control trial to determine if it has been implemented correctly. 
 
 
 
 ## Lab Preview 
 
-For Lab-01 you will read an example of a Randomized Control Trial used to study a nutrition and early childhood education program in Columbia. The lab asks for you to report on features of the research design and identify core concepts in the study:
+For Lab-01 you will read an example of a Randomized Control Trial used to study a nutrition and early childhood education program in Columbia. 
+
+*Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
+* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](../pubs/eval-in-practice-CH5-randomized-control-trial.pdf)]
+
+The lab asks for you to report on features of the research design and identify core concepts in the study:
 
 * The control group 
 * The program theory 
 * The treatment 
-* Treatment versus study time-frames 
+* Treatment duration vs study length 
 * Confounding factors 
-
-
-*Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
-* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/evaluation-in-practice-CH5-pre-post-with-control.pdf)]
 
 
 <br>
@@ -218,13 +125,19 @@ For Lab-01 you will read an example of a Randomized Control Trial used to study 
 
 ### Required:
 
-*Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank.* [[pdf](https://siteresources.worldbank.org/EXTHDOFFICE/Resources/5485726-1295455628620/Impact_Evaluation_in_Practice.pdf)]
+[Core Concepts in Research Design](../core-concepts) 
+
+*Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank.* [[pdf](https://openknowledge.worldbank.org/bitstream/handle/10986/25030/9781464807794.pdf?sequence=2&isAllowed=y)]
 * Chapter 3. Causal Inference and Counterfactuals 
 * Chapter 4. Randomized Selection Methods  
 
+### For the Lab:
+
+*Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
+* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](../pubs/eval-in-practice-CH5-randomized-control-trial.pdf)]
 
 
-### For reference:
+### Background: 
 
 Reichardt, C. S., & Bormann, C. A. (1994). Using regression models to estimate program effects. Handbook of practical program evaluation, 417-455. [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/pubs/Estimating%20Program%20Effects%20Using%20Regression%20Models.pdf) ]
 
@@ -232,304 +145,7 @@ Reichardt, C. S., & Bormann, C. A. (1994). Using regression models to estimate p
 
 
 
-
-
-*** { @unit = "", @title = "Counterfactual Reasoning", @lecture, @foldout  }
-
-<br>
-
-## Counterfactual Analysis
-
-A counterfactual assertion is a conditional whose antecedent is false and whose consequent describes how the world would have been if the antecedent had obtained.  The counterfactual takes the form of a subjunctive conditional: "If P had obtained, then Q would have obtained".  In understanding and assessing such a statement we are asked to consider how the world would have been if the antecedent condition had obtained.  For example, "If the wind had not reached 50 miles per hour, the bridge would not have collapsed" or "If the Security Council had acted, the war would have been averted."  We can ask two types of questions about counterfactual conditionals: What is the meaning of the statement, and how do we determine whether it is true or false?  A counterfactual conditional cannot be evaluated as a truth-functional conditional, since a truth-functional conditional with false antecedent is ipso facto true.  (That is, "if P then Q" is equivalent to "either not P or Q".)  So is it necessary to provide a logical analysis of the truth conditions of counterfactuals if they are to be useful in rigorous thought.
-
-There is a close relationship between counterfactual reasoning and causal reasoning.   If we assert that "P caused Q (in the circumstances Ci)", it is implied that we would assert: "If P had not occurred (in circumstances Ci) then Q would not have occurred."  So a causal judgment implies a set of counterfactual judgments.  Symmetrically, a counterfactual judgment is commonly supported by reference to one or more causal processes that would have conveyed the world from the situation of the antecedent to the consequent.  When we judge that the Tacoma Narrows Bridge would not have collapsed had the wind not reached 50 miles per hour, we rely on a causal theory of the structural dynamics of the bridge and the effects of the wind in reaching the consequent.
-
-How do we assign a truth value to a counterfactual statement?  The most systematic answer is to appeal to causal relations and causal laws.  If we believe that we have a true causal analysis of the occurrence of Q, and if P is a necessary part of the set of sufficient conditions that bring Q to pass—then we can argue that, had P occurred, Q would have occurred.  David Lewis (1973) analyzes the truth conditions and logic of counterfactuals in terms of possible worlds (possible world semantics).  A counterfactual is interpreted as a statement about how things occur in other possible worlds governed by the same laws of nature.  Roughly: "in every possible world that is relevantly similar to the existing world but in which the wind does not reach 50 miles per hour, the bridge does not collapse."  What constitutes "relevant similarity" between worlds is explained in terms of "being subject to the same laws of nature."  On this approach we understand the counterfactual "If P had occurred, Q would have occurred" as a statement along these lines: "P & {laws of nature} entail Q".  This construction introduces a notion of "physical necessity" to the rendering of counterfactuals: given P, it is physically necessary that Q.
-
-*Citations:*
-
-*Lewis, David K. 1973. Counterfactuals. Cambridge: Harvard University Press.*
- 
-*Encyclopedia of Social Science Research Methods, edited by Michael Lewis-Beck (University of Iowa), Alan Bryman (Loughborough University), and Tim Futing Liao.  Sage Publications.*
-
-**Some Things to Consider:**
-
-Lewis was influential in developing a rigorous formulation and language for counterfactual reasoning. Note that he was a philosopher, so he drew heavily upon logic to build a framework, and thus you see emphasis on if-then conditions and **truth statements**. 
-
-Statistical reasoning used in evaluation draws upon **probabalistic determinism**, which tries to understand probabalistic relationships between events. 
-
-Truth statement: If you pay $800 to attend the Kaplan LSAT prep course, you WILL score above a 130 on your LSAT. 
-
-Probabalistic statement: If you pay $800 to attend the Kaplan LSAT prep course, the PROBABILITY of scoring above a 130 on the LSAT will increase by X points. 
-
-Statisticians use a conditional notation to represent the probabalistic representation of the counterfactual. We write a conditional probability as follows:
-
-```
-Pr( A | B )
-```
-
-This reads as probability that A occurs given that B has occured. Then we augment this notation by incorporating the notion of "how the world would have been if the antecedent had obtained" using an intervention or a "treatment":
-
-```
-Pr( Y = TRUE | Treatment = TRUE ) - Pr( Y = TRUE | Treatment = FALSE )
-```
-
-Which is to say, the outcome observed in a world where they treatment does not occur represents the baseline reality, and the improvements in the outcome in a world where the treatment was administered can then be causally attributed to the treatment (*given a bunch of caveats*). The treatment takes the form of the difference between two groups. 
-
-The formulation above as *Y=TRUE* implies that the outcome is discrete - the student got into college, the patient survived the surgery, or the parolee did not return to prison in 12 months. 
-
-In cases where the outcome is continuous, such as income levels or wheat yield per acre, the notation would only be slightly different:
-
-```
-[ mean(Y) | Treatment = TRUE ] - [ mean(Y) | Treatment = FALSE ] 
-```
-
-Or more succinctly:
-
-```
-Y(t) - Y(c)
-```
-
-The outcome is measured now as a difference of means instead of a change in probabilities of observing success. Thus, we typically care about the **Average Treatment Effects** because it is the easiest thing to measure (the average outcome for the treatment and control groups) and most succinct way to communicate program effectiveness in evaluation studies. 
-
-The probabalistic nature of causal relationships in social science poses challenges to inference because we will almost always observe some differences in group means. The hard part is determining whether the observed differences are (1) statistically meaningful, i.e. significant, (2) pragmatically meaningful, i.e. large enough effect sizes to warrant investments given a cost-benefit calculation and alternative program models we can fund, and (3) the relationship is causal (think back to the classroom size example where billions were spent reducing class sizes and most schools saw no improvements in test scores). 
-
-More so, the marginal nature of program success can pose a challenge to communicating program impact to funders, stakeholders, or the general population. Should we be excited about a 1% increase in an outcome? If we are talking test scores in school, probably not. If we are talking growth in the US economy, that is a huge impact that equates to hundreds of billions of dollars, so yes!
-
-More so, if we observe that the program results in a 10% change the REALLY important question is whether it is a change in a stock of a value or a flow of a value? This difference radically changes the interpretation of a model coefficient because a change in a stock is a one-time bump and a change in a flow compounds over time rather quickly: 
-
-![](https://www.mercatus.org/sites/default/files/beach_and_de_rugy_years_to_double_gdp-chart_copy_0.png)
-
-For example, when we look at how data analytics can be used to "moneyball" businesses, political campaigns and government we find that things like predicting a profitable new product can result in short-term gains in market share (a stock measure). Investments in data warehouse capacity and building data-driven management practices can impact efficiency and rates of growth, thus compounding benefits over time. This was essentially the story we see in the *Good to Great* companies popularized by Jim Collins. 
-
-![](https://i1.wp.com/www.themastermindwithin.com/wp-content/uploads/2017/11/good-to-great-companies.gif?resize=585%2C319&ssl=1)
-
-We will spend a lot of time this semester looking at program effects, how we can identify them, and how we can contextualize them to understand not just whether our results are statistically significant, but whether they are practically important as well. 
-
-
-<br>
-<br>
-
-
-
-
-*** { @unit = "", @title = "Null Hypotheses", @lecture, @foldout  }
-
-<br>
-
-## The Importance of the Null Hypothesis
-
-One of the biggest mistakes novice evaluators will make is failing to create a meaningful null hypothesis. As a result, even when statistical models are significant it can be hard to tell whether they say anything meaningful about program impact. 
-
-Good impact evaluations share two characteristics: 
-
-* The evaluator has been thoughtful about what the ideal counterfactual group looks like in the study. 
-* The regression model is set up so that results represent a comparison of outcomes between the "treatment" group and its comparison group. 
-
-In many cases this is harder than one might think! Especially when the data contains multiple time periods and multiple treatment groups. 
-
-For example, if we have a simple study design with randomization and ensures groups are equivalent, and we have a post-treatment measure of outcomes in our study, we can determine the average treatment effect with a simple dummy variable model: 
-
-```
-Y = b0 + b1•Treat_Dummy + e
-```
-
-Recall that **b0** will capture the average level of Y for the control group (the omitted category), and **b1** represents our hypothesis of interest, the gains we observe in the treatment group above and beyond the control group: **Y(t) - Y(c)**. The default null in regression models is always that the slope is equal to zero, so in this case that the group mean Y(t)-Y(c) is equal to zero, i.e. that there is no program effect. 
-
-What about the following table of group-level means in a separate study. What regression model do we need to run to determine program impact here? 
-
-![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/treat-control-plus-time.png)
-
-What is our counterfactual group in this case? How do we capture that group in the model? The result is very clever, but not necessarily obvious. The counterfactual should describe what the world would look like if the treatment group had not received the treatment. 
-
-One challenge here is the control group is different than the treatment group, so we cannot just compare the means of the two groups after the program. We are actually going to use the treatment group prior to treatment as the reference. But we know from the control group that we can expect gains independent of the treatment (secular trends). So we create the counterfactual as follows:
-
-![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/treat-control-plus-time-2.png)
-
-```
-A = pre-treatment group mean
-D-C = gains without the treatment
-A + (D-C) = state of the world in the absence of a treatment
-```
-
-We can then compare the actual state of the world to our expectd state of the world:
-
-```
-B - [ A + (D-C) ]   # best estimate of the treatment effect
-```
-
-Now we have our reasoning worked out. How does this translate into a regression model? 
-
-For non-obvious reasons the model described above is written as:
-
-```
-Y = b0 + b1•Treat_Dummy + b2•Time=2_Dummy + b3•Treat_Dummy•Time=2_Dummy + e
-```
-
-We can reconstruct each group mean as follows: 
-
-```
-C: b0 = comparison group in time=1
-A: b0 + b2 = treatment group in time=1
-D: b0 + b2 = control group in time=2
-B: b0 + b1 + b2 + b3 = actual group outcome for treatment in time=2
-b0 + b1 + b2 = counterfactual group outcome (no treatment effects)
-```
-
-Each coefficient tests the following: 
-
-```
-b0: is C different from zero
-b1: is the treatment group different from the comparison group in time=1
-b2: is there a secular trend in the data 
-b3: is there a difference between T2 and the counterfactual T2
-```
-
-The coefficient b3 represents the statistical test of the difference between the observed outcome of the treatment group, and the expected outcome for that same group in the absence of the treatment. Which is exactly the test we wanted with exactly the comparison we wanted. 
-
-*A difference-in-difference framework used to estimate the pay gap during CEO transitions.*
-
-![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/pay-gap.png)
-
-
----
-
-This example is used because before you are familiar with the "difference-in-difference" model it should not be obvious how you go from the 2x2 table to a regression model. If you would run a simple model adding only a dummy variable for the treatment you would get entirely wrong inferences because you are pooling two time periods. If you were to subset the data to remove the first time period then run the model with a dummy for the treatment you would get biased estimates because you are not accounting for pre-treatment differences. 
-
-These connundrums are at the heart of counterfactual reasoning, the primary method at the core of inferential statistics. You will get lots of practice with the reasoning component of counterfactual models in Program Eval II (CPP 524) and practice translating from robust reasoning to model specification in Program Eval III (CPP 525). 
-
----
-
-One of the first known randomizec control trials was described by Sir Ronald Fisher. While socializing with a group a friends a woman made the claim that tea always tastes better when the tea is poured into the milk rather than when milk is poured into the tea. At first blush there is no rational basis for this claim, so many in the group were rightly skeptical and believed it was psychological effect. Fisher, a rising star in statistics, quickly devised a way to test whether she could actually differentiate between the two conditions by having her taste 8 cups of tea, four of which has been prepared by pouring the milk into the tea, and four by pouring the tea into the milk. The preparation was done out of sight so she was left to rely on the taste of the tea only to guess which were which. 
-
-The question is, **what is the null hypothesis in this experiment**? 
-
-We would be naive to assume that if there is in fact no difference in taste that she will guess all 8 incorrectly. Since there are only two options for each cup she is almost certain to guess some of them correctly by pure chance. So how do we describe the state of the world where the taste of the tea is the same no matter which method is used to prepare it? How many does she need to get correct before we know that the outcome is unlikely driven by luck? 
-
-Read the following description of the problem set-up: [The Lady Tasting Tea](https://en.wikipedia.org/wiki/Lady_tasting_tea)
-
-Consider a slightly easier problem. A friend tells you that he is psychic and can use his mind to see what is behind walls. You just so happen to be watching Let's Make a Deal, and they are playing the game with 3 doors that hide 2 goats and 1 car. The contestant picks a door and wins the prize behind it. 
-
-![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/goat-car-goat.png)
-
-If your friend correctly guesses the position of the car in the first round, what is the likelihood of that happening by chance? He has a one in three chance of guessing by luck on the first try. 
-
-```
-Pr( selected door = car ) = 0.33
-```
-
-So there is a 33% chance he is delusional but able to fool people.
-
-What about guessing two cars in a row? 
-
-```
-Pr( door = car : round 1 ) & Pr( door = car: round 2 ) = (0.33)(0.33) = 0.11
-```
-
-Three cars in a row? 
-
-```
-(0.33)(0.33)(0.33) = 0.037
-```
-
-At what point will you be convinced that he is psychic (or at least a good cheater)? How rare does the event need to be to provide sufficient evidence? 
-
-What do we expect the typical state of the world to be if he is not psychic? What happens if after five rounds he has guessed correctly four times and incorrectly one time? Is that enough evidence to prove his psychic abilities make him a better guesser than chance? What if it were forty times out of fifty? Does that change our response?  
-
-What if there are only two doors and he guesses correctly three times in a row? 
-
-```
-(0.5)(0.5)(0.5) = 0.125
-```
-
-There is now a 13% chance of observing that outcome instead of a 4% chance in the case with three doors and three correct guesses. Does that change our view? 
-
----
-
-The important insight is that when we expect that a program has no impact, or when a claim is false, we would not expect that the control group then outperform the treatment group, or that the treatment group would never do better than the control group. In most cases the null hypothesis represents a **distribution of expected outcomes in the absence of an effective program**. 
-
-Once we have selected a confidence level (our tolerance for a Type II error) the statistical test should tell us the critical value that will differentiate luck from meaningful differences. 
-
-When describing the state of the world where the treatment doesn't matter (tea tastes the same no matter which way you mix the milk) it is more likely that we observe some number of successes that occur by chance (2 out of 8 correct) than no successes at all. Experiments are not as simple as, if she can't really tell the difference she won't get any correct. 
-
-We must convert our counterfactual view of the world into a meaningful null hypothesis that describes a set of outcomes that fail to support our theory of interest (the program works) and a set of outcomes that supports our theory (those unlikely to occur through chance if the program has no impact).
-
-More generally we need to think about what patterns in data we expect to see if the program is having an impact, and what patterns we expect to see if it is not. Having these things in mind will help you identify the best models that capture your research question most precisely. 
-
-
-
-<br>
-<br>
-
-
-*** { @unit = "", @title = "Statistical Power", @reading, @foldout  }
-
-<br>
-
-## Statistical Power Calculator
-
-[The NHST (Null Hypothesis Statistical Test) Ritual](https://rpsychologist.com/d3/NHST/)
-
-* alpha, the criteria used for rejecting the null (0.05) predicts the rate of Type I Errors in repeated samples 
-* beta ( 1 - power ) predicts the rate of Type II Errors in repeated samples 
-* effect size for a t-test (Cohen's d) tells you the distance between the observed population mean and the null 
-
-Note that increasing the sample size is unambiguously good in that it lowers Type I and Type II Errors, though there are always real economic costs of the sample in a study. 
-
-Similarly, a larger effect size is always better. If you have a very large effect it is easy to detect statistically even with a small sample. As a rule of thumb when looking at Cohen's d in t-tests: 
-
-* 0.2 is a small effect 
-* 0.5 is a moderate-sized effect 
-* 0.8 is a large effect  
-
-These heuristics on magnitude vary by the type of statistical model (and thus the statistic used to report effect size):
-
-[Effect Size Magnitude by Statistic](http://imaging.mrc-cbu.cam.ac.uk/statswiki/FAQ/effectSize)
-
-You determine the effect size for a power calculation by looking at previous research in the domain and using reported statistics to calculate the effect size, or if you are lucky a published meta-analysis will have done this for you already for a lot of studies and you can use the average effect size reported. 
-
-When Type I Error appears as 0% it just means it is less than 0.005 and the dashboard rounds the value (it is never actually zero). 
-
-Most studies use an alpha of 0.05 and beta of 0.80 because these values balance the trade-off between the two error rates. If one type of error is more costly in your context consider adjusting these while doing a power calculation. 
-
-<br>
-<br>
-
-
-*** { @unit = "", @title = "On Validity and Murder Mysteries", @lecture, @foldout  }
-
-<br>
-
-## The Strength of Evidence
-
-CPP 524 is a course on research design. It might sound either straight-forward (you just create a treatment and control group and call it a day), or tedious. I suspect that by the end of the semester you will find the topic to be quite fun if you approach it the right way. 
-
-Research design and external review of other's research design can in fact be quite tedious because there are a lot of details to keep track of. You will _always_ have deficiencies in research design that prevent you from being 100% certain the results can be trusted, and it can be mentally taxing to weigh the evidence and decide whether you buy the results. 
-
-Not all evaluations are the same. Some provide robust and trustworthy estimates of program impact, and some provide noisy and indeterminate statistics where it is unclear what they actually represent. Whereas last semester we learned about using regression models to estimate the size of a slope, this course is meant to help you develop a qualitative notion of the **strength of evidence**. 
-
-Statistical signifance tells us the likelihood that the model slope differs from the model null, but it does not tell us if the null is a reasonable counterfactual and adequate steps have been taken to remove bias in the slope. Those both occur at the design phase, not the at the point of model estimation. 
-
-## Internal Validity as a Murder Mystery
-
-**Internal validity** is the term we use to measure whether our research design sufficient to say with confidence that changes we observe in the data are a result of the program only. In other words, having strong internal validity requires that we must eliminate all of the other salient competing hypotheses that offer an alternative explanation to the observed changes in the data. 
-
-We can treat this exercise as a murder mystery. Who created the changes in the data? Our leading theory is that the program did it, but we also must eliminate all of the other suspects. 
-
-We will use a check-list approach that we call a **Campbell Score**, which is a list of the ten most common competing hypotheses that weaken internal validity. We will use the check-list to practice reading research critically to look for holes in design. You will also use the tool to create a research design for a program of your choice, and think through which competing explanations you need to neutralize if you want your results to be compelling.  
-
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-*** { @unit = "TUE Jan 21", @title = "LAB 01", @assignment, @foldout   }
+*** { @unit = "WED Jul 8th", @title = "LAB 01", @assignment, @foldout   }
 
 
 ## Lab 01 - Counterfactual Reasoning with RCTs
@@ -544,12 +160,12 @@ This lab covers the following topics:
 -----
 
 Read: *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
-* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/evaluation-in-practice-CH5-pre-post-with-control.pdf)] 
+* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](../pubs/eval-in-practice-CH5-randomized-control-trial.pdf)] 
 
 
 Answer the questions in the word document: 
 
-[Lab-01 Instructions](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/lab-01-instructions.docx)
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/lab-01-instructions.docx">Lab-01 Instructions</a>
 
 Save it using the naming convention:
 
@@ -573,16 +189,95 @@ And submit via Canvas.
 
 
 
+<!--- 
+######################################################
+####
+####      Week 2 - Varieties of the Counterfactual
+####
+######################################################
+-->
 
 
 ** Week 2 - Varieties of the Counterfactual  
 
 
 
+*** { @unit = "", @title = "Unit Overview", @reading, @foldout }
 
-*** { @unit = "FRI Jan 24th", @title = "News Article Post", @assignment, @foldout }
+## Description 
 
-<br> 
+This week introduces the notion of counterfactual reasoning using quasi-experimental design. 
+
+## Learning Objectives
+
+* Be able to define and explain what is meant by "counterfactual reasoning" broadly. 
+* Explain the three primary counterfactuals in all statistics models. 
+* Apply the appropriate tests to determine whether the counterfactual is appropriate and robust. 
+
+## Lecture Materials
+
+* [**Introduction to Counterfactuals**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)
+
+* [**Testing the Counterfactual Validity**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-02-tests-for-cf-validity.pdf)
+
+  - Pre-study equivalence 
+  - Tests for non-random attrition 
+
+
+* [**Varieties of the Counterfactual**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
+
+  - Pre-post with comparison group design 
+    - difference-in-difference model  
+  - Post-test only design 
+  - Reflexive design 
+
+
+## Recommended Articles or Chapters
+
+
+**Suggested:**
+
+Cook, T. D., Scriven, M., Coryn, C. L., & Evergreen, S. D. (2010). Contemporary thinking about causation in evaluation: A dialogue with Tom Cook and Michael Scriven. American Journal of Evaluation, 31(1), 105-117. [ [LINK](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/conversation-with-tom-cook-and-michael-scriven.pdf) ]
+
+Skim: Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). *Impact evaluation in practice.* The World Bank.  
+* CH5 Regression Discontinuity Design   
+* CH6 Difference in Difference Models   
+* CH7 Matching   
+
+
+
+## Key Take-Aways 
+
+We rarely have the resources or opportunity to utilize Randomized Control Trials (RCTs) in policy and management. There is a growing field of quasi-experimental methodologies that allow us to reproduce many of the features of RCTs to make strong causal claims when certain conditions are met. 
+
+
+<br>
+<br>
+
+
+
+
+
+
+*** { @unit = "WED Jul 15th", @title = "LAB 02", @assignment, @foldout }
+
+
+<br>
+<br>
+
+# Lab 02 Part I: Test for Group Equivalence 
+
+
+<a class="uk-button uk-button-default" href="">Lab-02 Instructions</a>
+
+When you are complete:
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
+
+<br>
+<br>
+
+# Lab 02 Part II: News Article Discussion 
 
 ## Apples to Apples 
 
@@ -637,83 +332,28 @@ We know they are not because the article states:
 
 What has to be true for a control variable to make an effect disappear? 
 
-
-
 <br>
 <br>
 
 
 
 
-
-
-*** { @unit = "", @title = "Unit Overview", @reading, @foldout }
-
-## Description 
-
-This week introduces the notion of counterfactual reasoning using quasi-experimental design. 
-
-## Learning Objectives
-
-* Be able to define and explain what is meant by "counterfactual reasoning" broadly. 
-* Explain the three primary counterfactuals in all statistics models. 
-* Apply the appropriate tests to determine whether the counterfactual is appropriate and robust. 
-
-## Lecture Materials
-
-* [**Introduction to Counterfactuals**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)
-
-* [**Testing the Counterfactual Validity**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-02-tests-for-cf-validity.pdf)
-
-  - Pre-study equivalence 
-  - Tests for non-random attrition 
-
-
-* [**Varieties of the Counterfactual**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
-
-  - Pre-post with comparison group design 
-    - difference-in-difference model  
-  - Post-test only design 
-  - Reflexive design 
-
-
-## Assigned and Recommended Articles or Chapters
-
-**Required:**
-
-Cook, T. D., Scriven, M., Coryn, C. L., & Evergreen, S. D. (2010). Contemporary thinking about causation in evaluation: A dialogue with Tom Cook and Michael Scriven. American Journal of Evaluation, 31(1), 105-117. [ [LINK](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/conversation-with-tom-cook-and-michael-scriven.pdf) ]
-
-**Suggested:**
-
-Skim: Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). *Impact evaluation in practice.* The World Bank.  
-* CH5 Regression Discontinuity Design   
-* CH6 Difference in Difference Models   
-* CH7 Matching   
-
-
-
-## Key Take-Aways 
-
-We rarely have the resources or opportunity to utilize Randomized Control Trials (RCTs) in policy and management. There is a growing field of quasi-experimental methodologies that allow us to reproduce many of the features of RCTs to make strong causal claims when certain conditions are met. 
-
+*** { @unit = "FRI Jul 17th", @title = "Final Project Step-01", @assignment, @foldout }
 
 <br>
 <br>
 
+## Final Project Overview 
 
+Your final project in this course is a memo that outlines a proposed research design that would be necessary to measure impact of a policy or program if a Randomized Control Trial is disallowed for practical or financial reasons (pedagogically because it solves many of your internal validity issues - this class is an opportunity to practice quasi-experimental approaches to causal inference). 
 
+## Step 01 - Pick Your Topic
 
+For the first step of your project you will fill out a one-page form to describe your proposed study with details on the program you will evaluate, the outcome of interest, and the population targetted by the program. 
 
-*** { @unit = "", @title = "No lab this week", @assignment }
+This first step is designed to get feedback from the instructor in order to ensure you have picked an appropriate topic for the assignment. It is marked but not graded. 
 
-
-<br>
-<br>
-
-# Lab 02
-
-
-<a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-02-class-size-confidence-intervals.html">Lab-02 Instructions</a>
+<a class="uk-button uk-button-default" href="">Lab-02 Instructions</a>
 
 When you are complete:
 
@@ -726,11 +366,13 @@ When you are complete:
 
 
 
-
-
-
-
-
+<!--- 
+######################################################
+####
+####      Week 3 - Campbell Scores
+####
+######################################################
+-->
 
 ** Week 3 - Campbell Scores 
 
@@ -738,7 +380,9 @@ When you are complete:
 
 ## Description 
 
-This unit introduces a fraemwork for evaluating the internal validity of a study using a 10-item "Campbell Score". 
+This unit introduces a framework for evaluating the internal validity of a study using a 10-item "Campbell Score". 
+
+The tool helps you develop the skill of reading research in a systematic fashion to identify the subtle details that impact research quality. In doing so it also helps you develop intuition about how to better design your own studies, and how to communicate study design to stakeholders. 
 
 ## Learning Objectives
 
@@ -777,7 +421,7 @@ After mastering Campbell Scores you will be able to:
 <br>
 
 
-*** { @unit = "TUE Feb 11th", @title = "LAB 02", @assignment, @foldout  }
+*** { @unit = "WED Jul 22nd", @title = "LAB 03", @assignment, @foldout  }
 
 <br>
 
@@ -808,13 +452,41 @@ When you are complete:
 
 
 
+*** { @unit = "FRI Jul 24th", @title = "Final Project Step-02", @assignment, @foldout }
+
+<br>
+<br>
+
+## Step 02 - Measure Your Outcome
+
+You need to identify one to three metrics that will be used to measure the outcome in your study. 
+
+(1) Start by defining the outcome conceptually in terms of what you **actually** want to measure, i.e. kids in school should develop quantitative reasoning skills (concept) and not standardized math scores (the measure used to proxy quantitative reasoning). In microfinance the impact might be quality of life, not repayment rates or daily income measures. 
+(2) After you have identified the types of impact the program wishes to achieve you will find validated instruments that can be used to measure the outcome. See the instructions for details about validated instruments. 
+
+You will report the instrument(s) and their reliability measures. 
+
+<a class="uk-button uk-button-default" href="">Step-02 Instructions</a>
+
+When you are complete:
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
+
+<br>
+<br>
 
 
 
 
 
 
-
+<!--- 
+######################################################
+####
+####      Week 4 - More Campbell Scores
+####
+######################################################
+-->
 
 ** Week 4 - More Campbell Scores 
 
@@ -846,12 +518,12 @@ Case studies will again be from *Bingham, R., & Felbinger, C. (2002). Evaluation
 
 
 
-*** { @unit = "FRI Feb 21st", @title = "LAB 03", @assignment, @foldout  }
+*** { @unit = "WED Jul 29th", @title = "LAB 04", @assignment, @foldout  }
 
 <br>
 <br>
 
-# Lab 03
+# Lab 04
 
 For this lab you will again apply Campbell Scores to two more chapters, but this time both chapters are using the same data to answer the same research question. This is a nice case study because it shows how two groups of skilled researchers can make different choices about how to analyze data, and as a result arrive at different conclusions about program effectiveness. 
 
@@ -881,80 +553,24 @@ When you are complete:
 
 
 
-
-** Week 5 - Work on Campbell Score Studies
-
-*** { @unit = "", @title = "Unit Overview", @reading  }
-
-<br>
-
-## Description 
-
-
-
-## Learning Objectives
-
-
-
-
-## Assigned Lecture Materials
-
-
-
-## Lab Preview 
-
-
-
-
-
-*** { @unit = "", @title = "LAB 04", @assignment, @foldout }
-
+*** { @unit = "FRI Jul 31st", @title = "Final Project Step-03", @assignment, @foldout }
 
 <br>
 <br>
 
-# Lab 04
+## Step 03 - Theory of Change
 
-Lab 04 is being combined with an evaluation regression exercise in place of a quiz for the semester. See the **Final Lab** due on March 3rd under the Week 7 tab for details. 
+Each program has a theory of change that is used to articulate the intended program steps and the relationships between program activities and client outcomes. 
 
+For this step you will learn how to diagram a theory of change and describe your program elements. 
 
-<br>
-<br>
+*These steps are marked for feedback but not graded.*
 
-
-
-
-
-
-
-
-
-
-
-
-** Week 6 - Intermission
-
-
-
-
-
-
-
-
-*** { @unit = "", @title = "No lab - work on paper", @assignment }
-
-<br>
-<br>
-
-# Lab 06
-
-
-
-<a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-06-instructions.html">Lab-06 Instructions</a>
+<a class="uk-button uk-button-default" href="">Step-03 Instructions</a>
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
 
 <br>
 <br>
@@ -964,9 +580,16 @@ When you are complete:
 
 
 
+<!--- 
+######################################################
+####
+####      Week 5 - Research Design Projects 
+####
+######################################################
+-->
 
 
-** Week 7 - Research Design Projects 
+** Week 5 - Research Design Projects 
 
 
 
@@ -984,7 +607,7 @@ See the instruction for details.
 
 ## Office Hours
 
-I will be availble throughout the week for appointments. I would encourage you to read the the assignment instructions and set up a time if you have any clarifying questions, or you want feedback on the program you wuld like to work with. 
+At this point you should have feedback on your research design memo and practice with internal validity from the Campbell Scores. Schedule office hours if you need help selecting an appropriate counterfactual (reflexive, post-test only, or pre-post with comparison) or have other clarifying questions to discuss. You are close to the end of the semester, so now is the time to get input!  
 
 <br>
 <br>
@@ -994,16 +617,25 @@ I will be availble throughout the week for appointments. I would encourage you t
 
 
 
-*** { @unit = "TUES Mar 3rd", @title = "Final Lab", @assignment, @foldout }
+*** { @unit = "WED Aug 5th", @title = "LAB 05", @assignment, @foldout }
 
 <br>
 <br>
 
-This final lab is in place of a quiz for the semester. It asks you to estimate the gender pay gap of nonprofit executive directors using two different models. The key insight is being able to determine which of the three estimators you are using in each regression model (reflexive, post-test only, or pre-post with comparison). You will see that the pay gap will change when you change the estimator. The goal is to try and determine which estimate is the best and most unbiased measure for the gender pay gap. 
+This final lab offers an opportunity to synthesize material on counterfactuals by calculating program impact in a couple of different ways with the same data set and thinking about which estimator (counterfactual) best suits the research question. 
+
+You are asked to estimate the gender pay gap of nonprofit executive directors using two different models. The key insight is being able to determine which of the three estimators you are using in each regression model (reflexive, post-test only, or pre-post with comparison). 
+
+You will see that the pay gap will change when you change the estimator. The goal is to try and determine which estimate is the best and most unbiased measure for the gender pay gap. 
 
 ## Incorporating Research Design Principles into Models 
 
-<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/specification-lab-gender-pay-gap.pdf">Lab-04 Instructions</a>
+<!--- 
+https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/specification-lab-gender-pay-gap.pdf
+-->
+
+
+<a class="uk-button uk-button-default" href="">Lab-05 Instructions</a>
 
 You can find the data for the lab here: 
 
@@ -1021,8 +653,19 @@ You might find it helpful to review the use of dummy variables in regression mod
 
 
 
+<!--- 
+######################################################
+####
+####      Week 6 - Research Design Projects 
+####
+######################################################
+-->
 
-*** { @unit = "TUE Mar 3rd", @title = "Research Design Paper", @assignment, @foldout }
+
+** Week 6 - Research Design Projects 
+
+
+*** { @unit = "TUE Aug 11th", @title = "Research Design Memo", @assignment, @foldout }
 
 <br>
 <br>
@@ -1033,7 +676,9 @@ You might find it helpful to review the use of dummy variables in regression mod
 
 <br>
 
-My main advice is to keep the program model simple! Choose a well-established program that has a clear goal, a clear scope, and where you expect to achieve impact in a relatively short time frame (a few years). The point of the assignment is to practice thinking through and communicating important evaluation considerations. If you select a complicated program that has poorly-defined goals and has a complex implementation environment it will be difficult to tell whether things are not clear because you do not understand the program or you do not understand the material. So keep the program model very simple, if possible. If can be a small part of a larger program as well. 
+Choose a well-established program that has a clear goal, a clear scope, and where you expect to achieve impact in a relatively short time frame (a few years). The point of the assignment is to practice thinking through and communicating important evaluation considerations. 
+
+Keep the program model simple! If you select a complicated program that has poorly-defined goals and has a complex implementation environment it will be difficult to tell whether things are not clear because you do not understand the program or you do not understand the material. So keep the program model as simple as possible. You can limit the scope by designing the evaluation for a small part of a larger program. 
 
 By the time you are done writing up details you will likely have 10 to 20 pages of text (double-spaced). 
 
