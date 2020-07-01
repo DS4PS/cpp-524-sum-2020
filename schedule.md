@@ -163,6 +163,7 @@ And submit via Canvas.
 
 ## Final Memo
 
+For your final memo (worth 40% of your grade this term) you will propose a research design to evaluate a current policy or program. 
 
 Choose a well-established program that has a clear goal, a clear scope, and where you expect to achieve impact in a relatively short time frame (a few years). The point of the assignment is to practice thinking through and communicating important evaluation considerations. 
 
