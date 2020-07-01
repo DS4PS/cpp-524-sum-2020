@@ -571,13 +571,13 @@ When you are complete:
 <!--- 
 ######################################################
 ####
-####      Week 5 - Research Design Projects 
+####      Week 5 - FINAL LAB
 ####
 ######################################################
 -->
 
 
-** Week 5 - Research Design Projects 
+** Week 5 - Final Lab
 
 
 
@@ -644,13 +644,13 @@ You might find it helpful to review the use of dummy variables in regression mod
 <!--- 
 ######################################################
 ####
-####      Week 6 - Research Design Projects 
+####      Week 6 - Research Design Memo
 ####
 ######################################################
 -->
 
 
-** Week 6 - Research Design Projects 
+** Week 6 - Research Design Memo
 
 
 *** { @unit = "TUE Aug 11th", @title = "Research Design Memo", @assignment, @foldout }
