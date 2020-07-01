@@ -27,7 +27,7 @@ instructor:
    title: Professor
    email: lcamaren@asu.edu
    office_location: 
-   website_url: https://leonorcamarena.weebly.com/
+   website_url: https://leonorcamarena.wixsite.com/mysite
    github_url: 'https://github.com/CamarenaL' 
    twitter_url: 
    scholar_url: 'https://scholar.google.com/citations?user=ldgyYjEAAAAJ&hl=en&authuser=1'
@@ -160,7 +160,7 @@ The assigned work for the term comes in the form of four elements, described bel
 
 - **Weekly Labs (50%):**  Each week you will receive a lab that will help you synthesize the lectures from the week though exercises that involve data, analysis, and important formulas from the lectures. These labs contain exercises that are similar in form or difficulty to what will be presented on the final exam. They are graded pass / fail by the instructors based upon an assessment of whether you have sincerely attempted the lab and answered over half of the questions correctly. This is designed to hold you accountable for the material, but not create anxiety about perfection. Each lab is worth 10 points so that you can drop one lab. 
 
-- **Final Paper - Research Design (40%):**  You will design a hypothetical evaluation of a real-world program by applying concepts from this class. You do not need to collect and analyze data for the assignment, but you do need to provide background material on the program you decide to evaluate. Your grade will be based upon how complete the assignment is and how 
+- **Final Paper - Research Design (40%):**  You will design a hypothetical evaluation of a real-world program by applying concepts from this class. You do not need to collect and analyze data for the assignment, but you do need to provide background material on the program you decide to evaluate. Your grade will be based upon how complete the assignment is and how you apply concepts from this class. To assist with the direction of this assignment there will be weekly submissions beginning from week 2 through the end of the course that will allow you to receive feedback from me on the final assignment step-by-step. These weekly submissions will not be graded but they will allow you to make progress to your final assignment and receive direct feedback from me. 
 
 - **Final Exam (10%):**  The exam will be review of topics covered on the labs. It will test for key vocabular (like the difference between the Intention to Treat measure and the Treatment on the Treated measure), and concepts like tests for non-random attrition. 
 
@@ -185,7 +185,7 @@ Grades for the course are largely based on weekly labs. Assigned work is accompa
 
 **Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through the [Canvas shell](https://canvas.asu.edu). 
 
-Please post lab questions on the [Get Help](https://ds4ps.github.io/cpp-523-fall-2019/help/) page on this site, schedule individual office hours using the Calendly link provided above, and email the instructor directly instead of using the Canvas system. 
+Please post lab questions on the [Get Help](https://ds4ps.github.io/cpp-524-sum-2020/help/) page on this site, schedule individual office hours using the Calendly link provided above, and email the instructor directly instead of using the Canvas system. 
 
 Students should be aware that the course instructor will attempt to respond to any course-related email as quickly as possible. Students are asked to allow between 24 and 48 hours for replies to direct instructor emails, generally, as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for instructor grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
 
@@ -216,7 +216,7 @@ Please note: the course instructor may from time to time adjust assigned reading
 
 ### Unit 3 - Campbell Scores 
 
-### Unit 4 - Campbell Scores 
+### Unit 4 - Campbell Scores Continued
 
 ### Unit 5 - Effect Size
 
