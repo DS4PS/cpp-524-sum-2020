@@ -301,7 +301,7 @@ This short video presents lots of good examples from popular media where apples 
 
 For your discussion this week, search through recent news stories until you find a story that is reporting on scientific work and making a claim. You can pull from whatever research you like, but limit studies to ones that look at topics that can be packaged as treatments (exercise prevents dimentia, people that drink coffee make more money, etc.). In other words, the recent support for string theory based upon data from the Hedron collider would be hard to package as an intervention. I recommend going to Google news and looking in the health or science sections. 
 
-Find a story reporting on research that was published in peer-reviewed academic outlets. From what you can find in the news story, can you tell whether the study used an apples to appled comparison? How much information do you have about the study group, and how much detail do they provide about the construction of a "treatment" group and a "comparison" group? 
+Find a story **reporting on research that was published in PEER-REVIEWED academic outlets**. From what you can find in the news story, can you tell whether the study used an apples to apples comparison? How much information do you have about the study group, and how much detail do they provide about the construction of a "treatment" group and a "comparison" group? 
 
 Report your findings on YellowDig with a link to the news story. 
 
@@ -314,7 +314,7 @@ As an example, here is an excerpt from the story, **[Weed may not ease sleep pro
 > 
 > The study, published Monday in the journal BMJ Supportive & Palliative Care, found those who were using cannabis were less likely to report middle-of-the-night awakenings as compared to those who were not. No differences were found between the groups when it came to difficulties initiating sleep and waking too early.
 
-Is this an apples to appled comparison?
+Is this an apples to apples comparison?
 
 Do we believe that people who voluntarily smoke marijuana (there was no assignment to groups, it is observational) are identical to those that do not in most ways except that one behavior???
 
