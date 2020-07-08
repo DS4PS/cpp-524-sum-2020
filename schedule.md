@@ -305,7 +305,7 @@ Find a story **reporting on research that was published in PEER-REVIEWED academi
 
 Report your findings on YellowDig with a link to the news story. 
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41395/assignments/1105458">YELLOWDIG</a>
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/56453/assignments/1339826">YELLOWDIG</a>
 
 
 As an example, here is an excerpt from the story, **[Weed may not ease sleep problems, especially for regular users, studies say](https://www.cnn.com/2020/01/20/health/weed-sleep-debunk-wellness/index.html)**. 
@@ -343,13 +343,13 @@ Your final project in this course is a memo that outlines a proposed research de
 
 For the first step of your project you will fill out a one-page form to describe your proposed study with details on the program you will evaluate, the outcome of interest, and the population targetted by the program. 
 
-This first step is designed to get feedback from the instructor in order to ensure you have picked an appropriate topic for the assignment. It is marked but not graded. 
+This first step is designed to get feedback from the instructor in order to ensure you have picked an appropriate topic for the assignment. This is graded as a pass / fail. 
 
 <a class="uk-button uk-button-default" href="">Lab-02 Instructions</a>
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
+<a class="uk-button uk-button-primary" href="{{https://canvas.asu.edu/courses/56453/assignments}}">Submit Step 01 - Pick Your Topic</a>
 
 <br>
 <br>
