@@ -260,7 +260,7 @@ We rarely have the resources or opportunity to utilize Randomized Control Trials
 # Lab 02 Part I: Test for Group Equivalence 
 
 
-<a class="uk-button uk-button-default" href="">Lab-02 Instructions</a>
+<a class="uk-button uk-button-default" href="../labs/lab-02-equivalence-tests.html">Lab-02 Instructions</a>
 
 When you are complete:
 
