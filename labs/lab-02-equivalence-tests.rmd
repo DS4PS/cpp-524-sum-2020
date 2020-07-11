@@ -219,7 +219,7 @@ https://www.washingtonpost.com/business/behavioral-economics-show-that-women-ten
 
 https://www.vox.com/2018/10/31/17960156/what-is-the-glass-cliff-women-ceos
 
-L. Camarena, M. Feeney, & J. Lecy: "Nonprofit Entrepreneurship: The Landscape of Gendered Leadership." *Working paper.*
+*L. Camarena, M. Feeney, & J. Lecy: "Nonprofit Entrepreneurship: The Landscape of Gendered Leadership." Working paper.*
 
 <br>
 
@@ -614,27 +614,102 @@ The is no specific test that compares a bunch of variables at once. Instead the 
 
 There is a problem here, though!
 
-Our decision criteria allows for Type I errors (incorrectly identifying difference that don't actually exist) five percent of the time. So let's assume that we are comparing 20 group attributes in our table. Assuming group equivalence, if the probability of a Type I error is **five percent for a single variable** what happens if we test 20 variables at the same time? What is the likelihood that we observe at least one contrast with a p-value below 0.05 when the groups are statistically identical, leading us to incorrectly conclude that the groups are not equivalent? It's a lot more than 0.05 if we perform 20 independent contrasts and use the same decision criteria for rejecting the null that we would use for a single test. 
+Our decision criteria allows for Type I errors (incorrectly identifying difference that don't actually exist) five percent of the time. So let's assume that we are comparing 20 group attributes in our table. Assuming group equivalence, if the probability of a Type I error is five percent **for a single variable** what happens if we **test 20 variables at the same time**? What is the likelihood that we observe **at least one contrast with a p-value below 0.05** when the groups are statistically identical, leading us to incorrectly conclude that the groups are not equivalent? 
 
-To use a coin-flip metaphor, if regulators visit a casino to make sure that the coins are fair. They flip the same coin four times to see if they are getting different results. The probability of getting heads all four times is:
+It's a lot more than 0.05 if we perform 20 independent contrasts and use the same decision criteria for rejecting the null that we use for a single test. 
+
+We can demonstrate the issue with a coin-flip example. Assume a set of casinos has started offering a coin flip game (heads the casino wins, tail favors the gamblers). Regulators visit the casinos each month to inspect their coins to make sure they are fair. 
+
+They have decided on a test: they flip the same coin FOUR times to inspect outcomes. The probability of getting heads one one flip should be 0.5, so the probabily of getting heads all four times is:
 
 (0.5)(0.5)(0.5)(0.5) = 0.0625
 
-So to keep things simple the regulating agency says if this occurs the casino gets fined. Similar to a hypothesis-testing scenario, in 6.25 percent of the visits to casinos that are actually using fair coins they will unjustly receive a fine (a Type I error). The regulator and the casinos agree that it's an appropriate amount of risk because the alternatives to random tests of equipment are expensive and time-consuming (the fair casino is better off paying an erroneous fine every now and then than constantly paying for audits). 
+To keep things simple the regulating agency says if this occurs the casino gets fined. Similar to a hypothesis-testing scenario, in 6.25 percent of the visits to casinos that are actually using fair coins they will unjustly receive a fine (a Type I error). 
 
-One of the regulators proposes they can increase the sample size to improve the accuracy of the tests (sounds reasonable, right?). They will now flip the coin ten times instead of four. HOWEVER, they do not adjust the decision criteria. 
+The regulator and the casino owners have agree that it's an appropriate test because the alternatives to this simple test are expensive and time-consuming (the fair casino is better off paying 1 fine approximately every 20 visits than to pay for monthly audits). 
 
-Now, if at least four or of ten flips are heads, then the casino gets fined. Did the larger sample size improve their accuracy? 
+One of the regulators proposes they can increase the sample size to improve the accuracy of the tests (sounds reasonable, right?). They will now flip the coin TEN times instead of four. HOWEVER, they do not adjust the decision criteria that triggers a fine. 
 
-Obviously not. On average 5 out of 10 coins should turn up head, so a majority of the time there will be at least four heads in ten trials. 
+Now, if at least four or of ten flips are heads, then the casino is fined. 
 
-Instead of increasing the accuracy of the test, the regulatory agency has significantly increase the rate of Type I errors!
+Did the larger sample size improve the accuracy of the process? Obviously not. On average 5 out of 10 coins should turn up heads, so a majority of the time there will be at least four heads in ten trials. 
 
-The problem is that they did not select an level of confidence (0.0625 in the first case) and then determine a process that will fail approximately six percent of the time when the groups are actually equivalent. 
+Instead of increasing the accuracy of the test, the regulatory agency has significantly increase the rate of Type I errors! Casinos with fair coins will be paying fines more often.
 
-Similarly, if we are now conducting 20 contrasts and each has a Type I error rate of 0.05 then there is a high probability that one out of 20 tests have p-values below 0.05 by random. 
+The problem is that they wanted to keep the same confidence level for this test, but they did this by keeping the same decision criteria from the earlier process (if four or more heads are observed the coins are considered unfair). 
+
+What they should have done was **select the desired confidence level (0.0625 to be consistent with the original process) and then determine a new decision rule that will fail approximately six percent of the time when the groups are actually equivalent.**
+
+Similarly, if we are now conducting 20 contrasts and each has a Type I error rate of 0.05 then there is a high probability that one out of 20 tests have p-values below 0.05 by chance. 
 
 **We need to define a new decision criteria for the omnibus scenario - testing all hypothses together.**
+
+
+----
+
+SIDE NOTE - not required for the lab.
+
+If you are curious, the probability of getting all heads is easy to calculate since it would simply entail ten heads in a row, each with a probability of 0.5:  $$(0.5)^{10} = 0.00097$$ or approximately one in a thousand.
+
+To determine success for 9 out of ten coin flips is a little harder. We need to model the flips as a Bernoulli process: 
+
+$$
+P(k) = {n \choose x} p^k q^{n-k}
+$$
+
+Where **n** is the number of trials, **k** is the number of successes, **p** is the probability of success in each independent trail, and **q** is the probability of failure, which is always 1 - p.
+
+Thus the likelihood of getting 9 heads out of 10 trials is. 
+
+$$
+P(k=9) =  {10 \choose 9} (0.5)^9 (0.5)^{1}
+$$
+
+```{r}
+n <- 10
+k <- 9
+p <- 0.5
+choose( n=n, k=k ) * ( p ^ k  ) * ( (1-p) ^ (n-k) )
+```
+
+$$
+P(k=8) =  {10 \choose 8} (0.5)^8 (0.5)^{2}
+$$
+
+
+```{r}
+n <- 10
+k <- 8
+p <- 0.5
+choose( n=n, k=k ) * ( p ^ k  ) * ( (1-p) ^ (n-k) )
+```
+
+Once we reach 8 heads, we are already approach a 5 percent probability mark, so a reasonable decision criteria for the regulators would be observing 8 or more heads in ten flips would result in a fine. 
+
+The total likelihood of these event would be P(k=10) + P(k=9) + P(k=8):
+
+```{r}
+0.00097 + 0.009765625 + 0.04394531
+```
+
+So about 5.5 percent chance of one of these occuring by chance if the coin is in fact fair.
+
+If we look at the next step, we see a big leap in the likelihood of observing 7 heads out of ten flips:
+
+
+$$
+P(k=7) =  {10 \choose 7} (0.5)^7 (0.5)^{3}
+$$
+
+```{r}
+n <- 10
+k <- 7
+p <- 0.5
+choose( n=n, k=k ) * ( p ^ k  ) * ( (1-p) ^ (n-k) )
+```
+
+So using any criteria less than 8 would result in a higher Type I error rate than desired. 
+
 
 
 ----
