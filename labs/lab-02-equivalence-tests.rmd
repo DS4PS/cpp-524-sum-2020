@@ -1,5 +1,5 @@
 ---
-title: "Establishing Group Equality LAB"
+title: "LAB 02 - Establishing Group Equivalence"
 output:
   html_document:
     theme: readable
@@ -154,7 +154,7 @@ dat$income[ is.na(dat$income) ] <- median( dat$income, na.rm=T )
 
 dat$gender <- factor( dat$gender )
 
-saveRDS( dat , "female-np-entrepreneurs.rds" )
+saveRDS( dat, "female-np-entrepreneurs.rds" )
 write.csv( dat, "female-np-entrepreneurs.csv", row.names=F )
 
 ```
@@ -173,22 +173,6 @@ library( ggplot2 )
 # Overview 
 
 
-## Lab Learning Objectives
-
-This lab focuses on the resources question - are there differences in the financial and professional capital men and women have when they start nonprofits? 
-
-This is an example of **establishing study group equivalence**, which is a prerequisite for valid inferences for some (but not all) of the estimators you will learn in this class. 
-
-The reason randomization is powerful is because it generates equivalent treatment and control groups since randomization ensures that proportions of observed and unobserved traits (gender, age, etc.) are the same in each group. This ensures that the only difference between the groups is the treatment, which is what allows us to interpret performance differences in the post-treatment period as treatment or program effects. Since all other group characteristics are identical, none of them should explain the outcome. The test for “happy randomization” in RCTs is a test of group equivalence. 
-
-As such, this example will focus on the second theory of performance differences – the resources that the entrepreneurs bring to the table. 
-
-The test for group equivalence prior to the nonprofit launch will show us whether male and female entrepreneurs in the nonprofit sector have similar experience, financing and support to carry them through the process. 
-
-If they are equivalent then any performance differences between organizations started by men and organizations started by women are more likely to be driven more by behavioral considerations than structural ones. We can eliminate resources as an explanation and focus on ways in which women approach or experience the start-up process that is different from men. 
-
-The lab will show you how to compare characteristics of two groups in a study to establish equivalence. 
-
 
 
 ## The policy problem
@@ -203,7 +187,7 @@ We would like to design a study where we follow a new nonprofit for five years a
 
 Observed differences in performance could be explained by one of two distinct theories (or both together).  
 
-The first explanation for performance differences is a behavioral theory – women innately approach the entrepreneurial task differently than men. This would include things like attitudes toward risk, decision-making processes, leadership styles, etc. To make it concrete, behavioral economics provides us with a recent example from the investment world:
+The first explanation for performance differences is a **behavioral theory – women innately approach the entrepreneurial task differently than men**. This would include things like attitudes toward risk, decision-making processes, leadership styles, etc. To make it concrete, behavioral economics provides us with a recent example from the investment world:
 
 *Terry Odean, a University of California professor, has studied stock picking by gender for more than two decades. A seven-year study found single female investors outperformed single men by 2.3 percent, female investment groups outperformed male counterparts by 4.6 percent and women overall outperformed by 1.4 percent. Why? The short answer is overconfidence. Men trade more, and the more you trade, typically the more you lose — not to mention running up transaction costs. [Washington Post 2013]*
 
@@ -213,7 +197,7 @@ One could brainstorm other potential behavior differences in how men and women a
 
 Alternatively, the second theory is a resources theory. Entrepreneurial success is largely predicted by resources at the time of start-up: access to financial capital, the amount of knowledge about the specific product or program domain, and past start-up experience. Consequently, the resources that an entrepreneur has at the time the new business is created will largely predict success.
 
-If male and female entrepreneurs have **different initial levels of resources** when the organizations are started then performance might appear to be driven by male and female behavioral differences, but in fact gender could simply be a proxy for resources. Or stated differently, gender predicts the level of resources founders have at the point of business creation, and resources predict success. 
+If **male and female entrepreneurs have different initial levels of resources** when the organizations are started then performance might appear to be driven by male and female behavioral differences, but in fact gender could simply be a proxy for resources. Or stated differently, gender predicts the level of resources founders have at the point of business creation, and resources predict success. 
 
 Or stated differently, men and women with similar levels of resources produce start-ups that are equally successful. 
 
@@ -241,14 +225,34 @@ L. Camarena, M. Feeney, & J. Lecy: "Nonprofit Entrepreneurship: The Landscape of
 
 
 
+## Learning Objectives
+
+This lab focuses on the resources question - are there differences in the financial and professional capital men and women have when they start nonprofits? 
+
+This is an example of **establishing study group equivalence**, which is a prerequisite for valid inferences for some (but not all) of the estimators you will learn in this class. 
+
+The reason randomization is powerful is because it generates equivalent treatment and control groups since randomization ensures that proportions of observed and unobserved traits (gender, age, etc.) are the same in each group. This ensures that the only difference between the groups is the treatment, which is what allows us to interpret performance differences in the post-treatment period as treatment or program effects. Since all other group characteristics are identical, none of them should explain the outcome. The test for “happy randomization” in RCTs is a test of group equivalence. 
+
+As such, this example will focus on the second theory of performance differences – the resources that the entrepreneurs bring to the table. 
+
+The test for group equivalence prior to the nonprofit launch will show us whether male and female entrepreneurs in the nonprofit sector have similar experience, financing and support to carry them through the process. 
+
+If they are equivalent then any performance differences between organizations started by men and organizations started by women are more likely to be driven more by behavioral considerations than structural ones. We can eliminate resources as an explanation and focus on ways in which women approach or experience the start-up process that is different from men. 
+
+The lab will show you how to compare characteristics of two groups in a study to establish equivalence. 
+
+
+<br>
 
 
 
-## Establishing Group Equivalence 
+
+
+# Establishing Group Equivalence 
 
 
 
-### Contrasts 
+## Contrasts 
 
 A **contrast** is a **statistical comparison** of means of two groups. 
 
@@ -461,7 +465,7 @@ The problem with omitted variables is we don't always know what they even are, s
 
 
 
-### Contrasts with Categorical Variables 
+## Contrasts with Categorical Variables 
 
 
 When examining group composition it is common to include traits like race and gender that are categorical and not continuous. 
@@ -597,7 +601,7 @@ chisq.test( t )
 
 
 
-### P-Value Corrections for Omnibus Tests 
+## P-Value Corrections for Omnibus Tests 
 
 
 In the examples above each **contrast** is a test for **group differences for individual variables**. 
@@ -691,7 +695,7 @@ get_pval_from_tval( tvalue=2.16, n1=2964, n2=2664 )
 
 ```
 
-**Since 0.03 > 0.0045 then we do NOT reject the null** ::: THE GROUPS ARE CONSIDERED EQUIVALENT
+**Since 0.03 > 0.0045 then we do NOT reject the null ::: THE GROUPS ARE CONSIDERED EQUIVALENT**
 
 We used the largest t-value in the table, which will return the smallest p-value. If this p-value is above the decision criteria then nothing in the table will be smaller, so we have established group equivalence in this study to the extent possible with the variables we have (unlike groups created with randomization, unobserved differences are still possible). 
 
@@ -702,12 +706,7 @@ We used the largest t-value in the table, which will return the smallest p-value
 
 
 
-# Instructions 
-
-
-
-
-## Data 
+# Lab Instructions 
 
 
 This lab will use the following packages:
@@ -719,20 +718,24 @@ library( ggplot2 )
 ```
 
 
+## Data 
+
+
+The dataset contains ten survey questions from a survey of nonprofit entrepreneurs. 
+
+The **gender** variable represents our study groups, male and female. 
+
 
 ```{r}
-
+URL <- "https://github.com/DS4PS/cpp-524-sum-2020/blob/master/labs/data/female-np-entrepreneurs.rds?raw=true"
+dat <- readRDS(gzcon(url( URL )))
+head( dat )
 ```
 
-The dataset contains four variables:
 
-**Column** | **Variable name ** | **Description**                                  | 
------------|--------------------- | -----------------------------------------------------|
-$\text{Y}$ |$\text{Wellbeing}$    | Wellbeing index (from 0 to 300)                       |
-$\text{T}$ |$\text{Time}$         | Time (from 1 to 365)                                  |
-$\text{D}$ |$\text{Treatment}$    | Observation post (=1) and pre (=0) intervention       |
-$\text{P}$ |$\text{Time Since Treatment}$   | Time passed since the intervention                    |
+For the variables listed below construct an appropriate contrast. Include a table of row proportions for each categorical variable. Report your conclusion for each variable - do the study groups differ on that variable? 
 
+After creating the contrasts, report your findings about study group equivalence with regards to resource available to male and female nonprofit entrepreneurs at the start-up phase. You will need to calculate the new decision rule using a Bonferroni Correction for this step. 
 
 
 
@@ -754,7 +757,7 @@ t <- table( dat$f1, dat$f2 )
 # basic syntax:
 chisq.test( t )
 
-# use this for more accurate p-values:
+# use this setting for more accurate p-values:
 chisq.test( t, simulate.p.value=TRUE, B=10000 )
 ```
 
@@ -766,18 +769,124 @@ t.test( age ~ gender, data=dat )
 ```
 
 
+## Example Response 
+
+**Compare past nonprofit formation experience of male and female entrepreneurs.** 
+
+* Variable Name: **experience.np.other** 
+* Variable Type: **factor** 
+* Survey question: **Did the founding team include someone that helped found another nonprofit?**
+
+```{r, eval=T}
+t <- table( dat$experience.np.other, dat$gender )
+t %>% prop.table( margin=1 ) %>% round(2) %>% pander()
+```
+
+```{r}
+chisq.test( t, simulate.p.value=TRUE, B=10000 )
+```
+<br>
+
+-----
+
+**ANSWER:** No, we do not observe past founding differences between male and female entrepreneurs. Male founders reported slightly more past experience (53 percent versus 47 percent of female founders), but the contrast was not significant at the alpha=0.05 level (chi-squre p-value 0.2277). 
+
+------
 
 
-# Lab Questions 
+<br>
+<br>
+
+
+
+# QUESTIONS
 
 
 ## Question 1 
 
-**Q1: Prepare the data for the analysis.** 
+**Compare education levels of male and female entrepreneurs.** 
 
-* **Q1a:** Create the three variables you will need to run a time series model: Time, TimeSince, and Treatment. Your dataset should look something like this: (5 points for each variable)
+* Variable Name: **edu.level** 
+* Variable Type: **factor** 
+* Survey question: ****
+
+
+## Question 2 
+
+**Compare work experience for male and female entrepreneurs.** 
+
+* Variable Name: **years.prof.exp** 
+* Variable Type: **factor** 
+* Survey question: **How many years of professional experience did you have prior to starting the nonprofit?**
+
+
+## Question 3 
+
+**Compare success in accessing seed funding for male and female entrepreneurs.** 
+
+* Variable Name: **seed.funding** 
+* Variable Type: **factor** 
+* Survey question: **Did you receive any SEED FUNDING to start the organization? Seed funding supports development of the organization without requiring deliverables or program activities. Seed funding could also include funding for pilot programs.**
+
+
+## Question 4 
+
+**Compare the willingness to take on personal debt for male and female entrepreneurs.** 
+
+* Variable Name: **take.on.debt** 
+* Variable Type: **factor** 
+* Survey question: **Have any members of the organization taken on debt to finance the organization? Collectively:**
+
+
+## Question 5 
+
+**Compare sources of first year funding for male and female entrepreneurs.** 
+
+* Variable Name: **most.imp.fund.source** 
+* Variable Type: **factor** 
+* Survey question: **From the list of funding sources, which has been the MOST important in your first year of operations? Choose one.**
+
+
+## Question 6 
+
+**Compare age at the time of nonprofit formation for male and female entrepreneurs.** 
+
+* Variable Name: **age** 
+* Variable Type: **numeric** 
+* Survey question: **What was your age when you created the nonprofit?**
 
  
+ 
+## Question 7 
+
+**Compare income levels prior to starting the nonprofit for male and female entrepreneurs.** 
+
+* Variable Name: **income** 
+* Variable Type: **numeric** 
+* Survey question: **Please specify your income range prior to working to create this nonprofit:**
+
+
+
+## Question 8
+
+**Based upon these seven contrasts, would you conclude that the resources male and female nonprofit entrepreneurs have at the time of founding were equivalent?**
+
+**Q8-A:**
+
+What is the adjusted decision criteria used for contrasts to maintain an alpha of 0.05 for the omnibus test of group equivalence? 
+
+**Q8-B:**
+
+What is the lowest p-value you observed across the seven contrasts? 
+
+**Q8-C:**
+
+Can we claim study group equivalency? Why or why not? 
+
+
+
+
+
 ---
 
 
