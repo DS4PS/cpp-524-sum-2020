@@ -454,11 +454,9 @@ You need to identify one to three metrics that will be used to measure the outco
 
 You will report the instrument(s) and their reliability measures. 
 
-<a class="uk-button uk-button-default" href="">Step-02 Instructions</a>
-
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
+<a class="uk-button uk-button-primary" href="{{https://canvas.asu.edu/courses/56453/assignments}}">Submit Step</a>
 
 <br>
 <br>
