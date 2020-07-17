@@ -351,7 +351,7 @@ See page 4 of the project instructions PDF for an example of Step 01 memo format
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="{{https://canvas.asu.edu/courses/56453/assignments}}">Submit Step 01 - Pick Your Topic</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step 01 - Pick Your Topic</a>
 
 <br>
 <br>
@@ -558,7 +558,7 @@ Save a PDF of the academic article that describes the instrument. Submit this wi
 
 When you have completed the steps:
 
-<a class="uk-button uk-button-primary" href="{{https://canvas.asu.edu/courses/56453/assignments}}">Submit Step</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
 
 <br>
 <br>
