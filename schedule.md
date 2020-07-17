@@ -475,6 +475,13 @@ Social science instruments have typically been created by enumerating a large nu
 
 The result is a tool that can be used by a wide variety of researchers or evaluators to derive a quantitative measure of the thing that is very difficult to observe passively. If the tool is valid and reliable, then it should provide consistent metrics that can be used to compare individuals and groups. 
 
+If your desire more backgroud, the following textbook chapter provides a nice summary of measurement theory in social science research:
+
+*Kimberlin, C. L., & Winterstein, A. G. (2008). Validity and reliability of measurement instruments used in research. American journal of health-system pharmacy, 65(23), 2276-2284.* [ [pdf](https://github.com/DS4PS/cpp-529-master/raw/master/articles/measurement/reliabillity-and-validity-of-measures.pdf) ]
+
+
+### INSTRUCTIONS:
+
 This project step has two parts:
 
 **PART ONE:**
@@ -487,17 +494,24 @@ Get familiar with existing valid instruments used frequently in social sciences.
 - [The Big Five (personality index)](https://www.psychologytoday.com/us/blog/give-and-take/201309/goodbye-mbti-the-fad-won-t-die) [ [questions & benchmarks](https://openpsychometrics.org/tests/IPIP-BFFM/) ] [ [scoring](https://ipip.ori.org/new_ipip-50-item-scale.htm) ] 
 
 
-**(2) Complete the questionaire for yourself and calculate your score using the instructions provided for each instrument.**
+**(2) Complete the questionaire and calculate your score using the instructions provided for each instrument.**
 
 **(3) Use the guides to determine if your score is low, average, or high relative to the general population.**
 
-**(4) After completing (1)-(3) present an evaluation of the instrument to your classmates via a YellowDig post.** Specifically, reflect on the challenges of creating strong instruments. Did you find your questionaire easy to complete? Do you think it will really capture the underlying latent constructs it was designed to measure? What is hard about measuring the construct of interest? Is there something else you have learned about instrument design through this exercise? Something you found interesting? Questions that were raised by the exercise?
+**(4) After completing (1)-(3) present an evaluation of the instrument to your classmates via a YellowDig post.** 
 
-You will spend more time on instrument development in other courses, so this exercise is meant as an introduction (or review) only, and a chance to familiarize yourself with some popular instruments.  
+Specifically, reflect on the challenges of creating strong instruments. Did you find your questionaire easy to complete? Do you think it will really capture the underlying latent constructs it was designed to measure? What is hard about measuring the construct of interest? 
 
-If helpful, the following textbook chapter provides a nice overview of instruments in social science research:
+Is there something else you have learned about instrument design through this exercise? Something you found interesting? Questions that were raised by the exercise?
 
-*Kimberlin, C. L., & Winterstein, A. G. (2008). Validity and reliability of measurement instruments used in research. American journal of health-system pharmacy, 65(23), 2276-2284.* [ [pdf](https://github.com/DS4PS/cpp-529-master/raw/master/articles/measurement/reliabillity-and-validity-of-measures.pdf) ]
+**You do NOT have to report your scores from (2) and (3) on YellowDig.** 
+
+You will spend more time on instrument development in other courses, so this exercise is meant as an introduction (or review), and a chance to familiarize yourself with some popular instruments.  
+
+<br>
+<hr>
+<brL
+
 
 **PART TWO:**
 
@@ -536,7 +550,7 @@ Save a PDF of the academic article that describes the instrument. Submit this wi
 
 ------
 
-When you are complete:
+When you have completed the steps:
 
 <a class="uk-button uk-button-primary" href="{{https://canvas.asu.edu/courses/56453/assignments}}">Submit Step</a>
 
