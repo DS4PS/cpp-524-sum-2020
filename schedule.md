@@ -512,14 +512,14 @@ You will spend more time on instrument development in other courses, so this exe
 
 <br>
 <hr>
-<brL
+<br>
 
 
 **PART TWO:**
 
 **Question 1:**
 
-Identify an outcome or a control variable in your study that is a latent construct. In very general terms describe the construct and explain why it is important for the study.
+Identify a potential outcome in your proposed study that is a latent construct. In very general terms describe the construct and explain why it is an appropriate outcome for the study.
 
 **Question 2:**
 
@@ -528,13 +528,17 @@ Explain what makes it a latent construct.
 
 **Question 3:** 
 
-Identify a valid and reliable instrument that can be used to measure the latent construct. 
+Identify a **valid and reliable instrument** that can be used to measure the latent construct. 
 
 I would suggest using a google search to identify some possible measures of your construct with search terms like “measure of”, “instrument”, “items”, “reliability”, etc. 
 
-Then search within an academic database like Google Scholar for an academic paper that has created a reliability score for the measure.
+Then search within an academic database like Google Scholar for an academic paper that has created a reliability score for the measure you found.
 
-For the instrument to produce a reliable measure of your construct there must be a scientific article published in a peer-reviewed journal that explains the instrument development process and reports a **Cronbach's Alpha** or similar alpha score above a 0.7. In this context **alpha** refers to a reliability measure for the instrument on a scale of zero to one, NOT the confidence level in a hypothesis test (also called alpha). 
+For example, you could use "instrument" + "grit" to identify the survey used by Duckworth to measure *grit* in the examples above. 
+
+For the instrument to produce a reliable measure of your construct there must be a scientific article published in a peer-reviewed journal that explains the instrument development process and reports a **Cronbach's Alpha or similar alpha score above a 0.7**. 
+
+In this context **alpha** refers to a reliability measure for the instrument on a scale of zero to one, NOT the confidence level in a hypothesis test (also called alpha). 
 
 *You will cover Cronbach's Alpha more in other courses as well. For now note it is a measure of reliability (scale of 0 to 1) and most importantly a signal that the instrument was developed by trained psychometricians using appropriate scientific methods. There are many instruments that have not been properly tested and subjected to peer-review, and thus might not actually measure what it claims to measure.*
 
