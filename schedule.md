@@ -442,6 +442,8 @@ When you are complete:
 
 
 
+
+
 *** { @unit = "FRI Jul 24th", @title = "Final Project Step-02", @assignment, @foldout }
 
 <br>
@@ -452,9 +454,87 @@ When you are complete:
 You need to identify one to three metrics that will be used to measure the outcome in your study. 
 
 (1) Start by defining the outcome conceptually in terms of what you **actually** want to measure, i.e. kids in school should develop quantitative reasoning skills (concept) and not standardized math scores (the measure used to proxy quantitative reasoning). In microfinance the impact might be quality of life, not repayment rates or daily income measures. 
+
 (2) After you have identified the types of impact the program wishes to achieve you will find validated instruments that can be used to measure the outcome. See the instructions for details about validated instruments. 
 
 You will report the instrument(s) and their reliability measures. 
+
+-----
+
+## What is an "instrument" in social science? 
+
+> Many variables studied by psychologists are straightforward and simple to measure. These include sex, age, height, weight, and birth order. You can often tell whether someone is male or female just by looking. You can ask people how old they are and be reasonably sure that they know and will tell you. Although people might not know or want to tell you how much they weigh, you can have them step onto a bathroom scale. Other variables studied by psychologists—perhaps the majority—are not so straightforward or simple to measure. We cannot accurately assess people’s level of intelligence by looking at them, and we certainly cannot put their self-esteem on a bathroom scale. **These kinds of variables are called LATENT CONSTRUCTS** (pronounced CON-structs) and include personality traits (e.g., extraversion), emotional states (e.g., fear), attitudes (e.g., toward taxes), and abilities (e.g., athleticism). [ [Understanding Psychological Measurement](https://opentextbc.ca/researchmethods/chapter/understanding-psychological-measurement/) ]
+
+Often times the outcomes in evaluation studies are latent constructs (for example wealth, health, and happiness as well as almost anything related to performance). As a result, they cannot be directly observed or measured through physical instruments. They are typically measured through **social science instruments**, which are typically questionaires that contain sets of questions that are combined into an index. The index is designed to capture the underlying construct with high fidelity, and present a quantitative measure of the level of the underlying construct. For example, an IQ test provides a robust predictor of a person's ability to perform on reasoning exercises and cognitive tasks. The underlying construct is "general intelligence" (the thing correlated across a person's ability in all individual subjects), and the instrument is the specific IQ exam that is used to assign a score on a scale of 50 to 150 (lower and higher scores are possible, but they are often considered dubious). These are [**construct measures**](https://github.com/DS4PS/cpp-529-master/raw/master/articles/measurement/introduction-to-construct-measurement.pdf). 
+
+The process of developing a **valid and reliable instrument** that serves as a construct measure is extremely time and resource intensive. It involves the careful consideration of the actual construct of interest andd process of trial, error, and calibration to create a small set of items that can accurately measure the latent construct. 
+
+We are so accostomed to using proxy measures that we often forget they are just a placeholder for the thing we really care about. For example, the early field of economics crystalized around the construct of societal well-being. As it evolved into a mathematical science that required empirical, quantitative measures of societal well-being it began using the short-hand that utility increases with wealth, so wealthier societies are better off. Progress became measured in Gross Domestic Product (GDP) instead of utils (units of utility). We now frequently rank countries by per capita income, assuming it is more rigorous than a squishy construct like Gross National Happiness (GDH), even though that is closer to the original construct of well-being. 
+
+Social science instruments have typically been created by enumerating a large number of questions or observations that might capture a specific construct, then field-testing them to generate raw data, which is then used to look for items (questions on the questionaire) that are highly-correlated, suggesting they are all measures of the same underlying construct. They are then calibrated and potentially weighted to determine each question's contribution to the final index score. 
+
+The result is a tool that can be used by a wide variety of researchers or evaluators to derive a quantitative measure of the thing that is very difficult to observe passively. If the tool is valid and reliable, then it should provide consistent metrics that can be used to compare individuals and groups. 
+
+This project step has two parts:
+
+**PART ONE:**
+
+Get familiar with existing valid instruments used frequently in social sciences. **(1) Select one of these four instruments:**
+
+- [SF-36 Measure of Health](https://www.healthknowledge.org.uk/public-health-textbook/research-methods/1c-health-care-evaluation-health-care-assessment/measures-health-status) [ [questions](https://www.brandeis.edu/roybal/docs/SF-36_website_PDF.pdf) ] [ [benchmarks pp 3135-3136](https://www.dropbox.com/s/318rw6obrc3gne4/SF-36-Health-Survey-Update.pdf?dl=1) ] 
+- [Oxford Happiness Index](http://content.time.com/time/magazine/article/0,9171,1015832,00.html) [ [questions & benchmarks](http://www.blake-group.com/sites/default/files/assessments/Oxford_Happiness_Questionnaire.pdf) ] [ [reliability](http://www.louisianaparadox.com/wp-content/uploads/2011/01/Hills-Argyle-2002.pdf) ] 
+- [Grit (Duckworth index)](http://freakonomics.com/podcast/grit/) [ [questions](https://angeladuckworth.com/grit-scale/) ] [ [benchmarks & reliability](https://www.dropbox.com/s/0y545gn2withb5e/DuckworthPetersonMatthewsKelly_2007_PerseveranceandPassion.pdf?dl=0) ] 
+- [The Big Five (personality index)](https://www.psychologytoday.com/us/blog/give-and-take/201309/goodbye-mbti-the-fad-won-t-die) [ [questions & benchmarks](https://openpsychometrics.org/tests/IPIP-BFFM/) ] [ [scoring](https://ipip.ori.org/new_ipip-50-item-scale.htm) ] 
+
+
+**(2) Complete the questionaire for yourself and calculate your score using the instructions provided for each instrument.**
+
+**(3) Use the guides to determine if your score is low, average, or high relative to the general population.**
+
+**(4) After completing (1)-(3) present an evaluation of the instrument to your classmates via a YellowDig post.** Specifically, reflect on the challenges of creating strong instruments. Did you find your questionaire easy to complete? Do you think it will really capture the underlying latent constructs it was designed to measure? What is hard about measuring the construct of interest? Is there something else you have learned about instrument design through this exercise? Something you found interesting? Questions that were raised by the exercise?
+
+You will spend more time on instrument development in other courses, so this exercise is meant as an introduction (or review) only, and a chance to familiarize yourself with some popular instruments.  
+
+If helpful, the following textbook chapter provides a nice overview of instruments in social science research:
+
+*Kimberlin, C. L., & Winterstein, A. G. (2008). Validity and reliability of measurement instruments used in research. American journal of health-system pharmacy, 65(23), 2276-2284.* [ [pdf](https://github.com/DS4PS/cpp-529-master/raw/master/articles/measurement/reliabillity-and-validity-of-measures.pdf) ]
+
+**PART TWO:**
+
+**Question 1:**
+
+Identify an outcome or a control variable in your study that is a latent construct. In very general terms describe the construct and explain why it is important for the study.
+
+**Question 2:**
+
+Explain what makes it a latent construct.
+
+
+**Question 3:** 
+
+Identify a valid and reliable instrument that can be used to measure the latent construct. 
+
+I would suggest using a google search to identify some possible measures of your construct with search terms like “measure of”, “instrument”, “items”, “reliability”, etc. 
+
+Then search within an academic database like Google Scholar for an academic paper that has created a reliability score for the measure.
+
+For the instrument to produce a reliable measure of your construct there must be a scientific article published in a peer-reviewed journal that explains the instrument development process and reports a **Cronbach's Alpha** or similar alpha score above a 0.7. In this context **alpha** refers to a reliability measure for the instrument on a scale of zero to one, NOT the confidence level in a hypothesis test (also called alpha). 
+
+*You will cover Cronbach's Alpha more in other courses as well. For now note it is a measure of reliability (scale of 0 to 1) and most importantly a signal that the instrument was developed by trained psychometricians using appropriate scientific methods. There are many instruments that have not been properly tested and subjected to peer-review, and thus might not actually measure what it claims to measure.*
+
+**Report your selected instrement and describe the questionaire (number of items, example questions, how they are aggregated into a single score, etc.).**
+
+As a professional evaluator, if you are ever hired to work in a new field you will often begin the work by finding some validated instruments that would be appropriate for the program of interest, so it is useful getting familiar with the process of searching for new ones and evaluating their quality. 
+
+
+**Question 4:**
+
+Save a PDF of the academic article that describes the instrument. Submit this with your answers to questions 1-3. 
+
+
+
+
+------
 
 When you are complete:
 
@@ -465,6 +545,23 @@ When you are complete:
 
 
 
+-------
+
+
+
+**Measurement Theory**
+
+Useful background reading or reference chapters: 
+
+*Measurement Theory and Practice, from: Smith, F. (2002). Research methods in pharmacy practice. Pharmaceutical Press.* [ [pdf](https://github.com/DS4PS/cpp-529-master/raw/master/articles/measurement/measurement-theory-and-practice.pdf) ]
+
+*Schäffer, U. (2007). Management accounting & control scales handbook. Springer Science & Business Media.* [ [full text](https://github.com/DS4PS/cpp-529-master/raw/master/articles/measurement/Management-Accounting-and-Control-Scales-Handbook.pdf) ]
+
+*MacKenzie, S. B., Podsakoff, P. M., & Podsakoff, N. P. (2011). Construct measurement and validation procedures in MIS and behavioral research: Integrating new and existing techniques. MIS quarterly, 35(2), 293-334.* [ [pdf](https://github.com/DS4PS/cpp-529-master/raw/master/articles/measurement/construct-measurement-and-validation-in-behavioral-research.pdf) ]
+
+<br>
+<hr> 
+<br>
 
 
 
