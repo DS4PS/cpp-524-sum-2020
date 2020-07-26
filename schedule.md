@@ -671,11 +671,16 @@ Each program has a theory of change that is used to articulate the intended prog
 
 For this step you will learn how to diagram a theory of change and describe your program elements. 
 
+Before completing Step 03, read the following documents that describe the theory of change methodology:
+
+* [Building a Theory of Change](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/theory-of-change-methodology.pdf)  
+* [Example of a TOC Design: The Superwoman Program](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/reference/superwoman-program-theory-of-change.pdf)  
+
 *These steps are marked for feedback but not graded.*
 
-<a class="uk-button uk-button-default" href="">Step-03 Instructions</a>
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/step-03-theory-of-change.pdf">Step-03 Instructions</a>
 
-When you are complete:
+When you are complete submit your section draft:
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
 
