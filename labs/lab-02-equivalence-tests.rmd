@@ -739,7 +739,7 @@ The new decision criteria is that the p-value needs to be below 0.0025 in order 
 
 ----
 
-So for a concrete example, consider again the table from the Millenium Challenge Villages study. 
+So for a concrete example, consider again the table from the Millennium Challenge Villages study. 
 
 ![](figures/group-equivalence-table.png)
 
