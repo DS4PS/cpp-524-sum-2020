@@ -738,7 +738,7 @@ At this point you should have feedback on your research design memo and practice
 
 
 
-*** { @unit = "WED Aug 5th", @title = "LAB 05", @assignment, @foldout }
+*** { @unit = "WED Aug 5th", @title = "LAB 05", @assignment}
 
 <br>
 <br>
@@ -771,6 +771,30 @@ You might find it helpful to review the use of dummy variables in regression mod
 
 <br>
 <br>
+
+
+
+
+
+*** { @unit = "FRI Aug 7th", @title = "Final Project Step-04", @assignment}
+
+<br>
+<br>
+
+## Step 04 - Identify Your Counterfactual
+
+
+<a class="uk-button uk-button-default" href="">Step-03 Instructions</a>
+
+When you are complete submit your section draft:
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
+
+
+<br>
+<br>
+
+
 
 
 
