@@ -761,7 +761,30 @@ When you are complete submit your section draft:
 
 
 
-*** { @unit = "WED Aug 5th", @title = "LAB 05", @assignment}
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- 
+######################################################
+####
+####      Week 6 - Research Design Projects 
+####
+######################################################
+-->
+
+** Week 6 - Research Design Projects 
+
+
+*** { @unit = "TUE Aug 11th", @title = "LAB 05", @assignment}
 
 <br>
 <br>
@@ -795,26 +818,6 @@ You might find it helpful to review the use of dummy variables in regression mod
 <br>
 <br>
 
-
-
-
-
-
-
-
-
-
-
-<!--- 
-######################################################
-####
-####      Week 6 - Research Design Projects 
-####
-######################################################
--->
-
-
-** Week 6 - Research Design Projects 
 
 
 *** { @unit = "TUE Aug 11th", @title = "Research Design Memo", @assignment, @foldout }
