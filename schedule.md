@@ -736,6 +736,29 @@ At this point you should have feedback on your research design memo and practice
 
 
 
+*** { @unit = "FRI Aug 7th", @title = "Final Project Step-04", @assignment, @foldout }
+
+<br>
+<br>
+
+## Step 04 - Diagram Your Counterfactual
+
+Review the following example that walks through the steps of diagramming a counterfactual as part of a research design exercise. 
+
+[Diagram Your Research Design](https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/step-04-diagram-your-research-design.pdf)
+
+Then complete the following project step: 
+
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-sum-2020/raw/master/final-project/step-04-diagram-your-study-design.pdf">Step-04 Instructions</a>
+
+When you are complete submit your section draft:
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
+
+
+<br>
+<br>
+
 
 
 *** { @unit = "WED Aug 5th", @title = "LAB 05", @assignment}
@@ -776,23 +799,7 @@ You might find it helpful to review the use of dummy variables in regression mod
 
 
 
-*** { @unit = "FRI Aug 7th", @title = "Final Project Step-04", @assignment}
 
-<br>
-<br>
-
-## Step 04 - Identify Your Counterfactual
-
-
-<a class="uk-button uk-button-default" href="">Step-03 Instructions</a>
-
-When you are complete submit your section draft:
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Step</a>
-
-
-<br>
-<br>
 
 
 
