@@ -24,31 +24,7 @@ Unit Metadata is comprised of:
 Submit Button - <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
 -->
 
-<style> 
-body {
-   font-family: "Roboto", sans-serif;
-}
- 
-p.italic {
-  font-style: italic;
-  color: black !important;
-}
-td {
-  text-align: left;
-}
-td.i {
-  text-align: center;
-}
-iframe {
-  align: middle;
-}
-em {
-  color: black !important;
-}
-article {
-  padding-left:20%;
-}
-</style>
+
 
 
 
@@ -849,6 +825,37 @@ By the time you are done writing up details you will likely have 10 to 20 pages 
 <br>
 
 -------
+
+
+
+
+
+
+<style> 
+body {
+   font-family: "Roboto", sans-serif;
+}
+ 
+p.italic {
+  font-style: italic;
+  color: black !important;
+}
+td {
+  text-align: left;
+}
+td.i {
+  text-align: center;
+}
+iframe {
+  align: middle;
+}
+em {
+  color: black !important;
+}
+article {
+  padding-left:20%;
+}
+</style>
 
 <br>
 <br>
