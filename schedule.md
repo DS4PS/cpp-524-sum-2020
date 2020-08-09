@@ -760,7 +760,7 @@ When you are complete submit your section draft:
 ** Week 6 - Research Design Projects 
 
 
-*** { @unit = "TUE Aug 11th", @title = "LAB 05", @assignment}
+*** { @unit = "", @title = "LAB 05", @assignment}
 
 <br>
 <br>
@@ -773,12 +773,7 @@ You will see that the pay gap will change when you change the estimator. The goa
 
 ## Incorporating Research Design Principles into Models 
 
-<!--- 
-https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/specification-lab-gender-pay-gap.pdf
--->
-
-
-<a class="uk-button uk-button-default" href="">Lab-05 Instructions</a>
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/specification-lab-gender-pay-gap.pdf">Lab-05 Instructions</a>
 
 You can find the data for the lab here: 
 
