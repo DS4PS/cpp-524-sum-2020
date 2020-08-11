@@ -303,15 +303,18 @@ b0
 b0 + b1
 
 
-# LOG-LINEAR MODEL: 
-# log(Y) = b0 + b1(male)
+
 
 # b0 = salary_female
 # salary_male = b0 + b1
 # salary_male = salary_female + b1
 # b1 = salary_male - salary_female
-# log(b1) = log(salary2) - log(salary1)
 
+# LOG-LINEAR MODEL: 
+# log(Y) = b0 + b1(male)
+# b1 = log(salary2) - log(salary1)
+
+b0 <- log(90000)
 b1 <- log(100000) - log(90000)
 
 # coefficients in log-linear model:
@@ -321,6 +324,9 @@ b1
 # note b1 approximates % difference 
 # of salary_male to salary_female
 (100000 - 90000 ) / 100000
+
+# compare to:
+b1
 
 # recovering base salaries
 exp( b0 )
