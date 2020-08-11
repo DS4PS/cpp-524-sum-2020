@@ -760,7 +760,7 @@ When you are complete submit your section draft:
 ** Week 6 - Research Design Projects 
 
 
-*** { @unit = "", @title = "LAB 05", @assignment}
+*** { @unit = "", @title = "LAB 05", @assignment, @foldout }
 
 <br>
 <br>
@@ -773,18 +773,12 @@ You will see that the pay gap will change when you change the estimator. The goa
 
 ## Incorporating Research Design Principles into Models 
 
-<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/specification-lab-gender-pay-gap.pdf">Lab-05 Instructions</a>
+<a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-524-sum-2020/labs/lab-05-gender-wage-gap.html">Lab-05 Instructions</a>
 
-You can find the data for the lab here: 
-
-```r
-URL <- "https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/labs/data/np-comp-data.csv"
-dat <- read.csv( URL, stringsAsFactors=F )
-```
-
-You might find it helpful to review the use of dummy variables in regression models: 
-
-[DUMMY VARIABLES](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/hypotheses-tests-with-dummy-variables.pdf)
+<!---
+<br>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
+-->
 
 <br>
 <br>
