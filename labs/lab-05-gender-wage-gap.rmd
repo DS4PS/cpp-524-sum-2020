@@ -394,7 +394,8 @@ d %>%
   group_by( NTMAJ12 ) %>% 
   filter( ! is.na(NTMAJ12) ) %>% 
   summarize( prop.female = mean( gender == "F" ),
-             ave.sal = mean( TOTCOMP )  )
+             ave.sal = mean( TOTCOMP )  ) %>%
+  arrange( prop.female )
 
 t2 <- t1
 t2$ave.sal <- dollarize( t2$ave.sal )
@@ -448,12 +449,44 @@ Interestingly, all of the fields except four are moving toward hiring approximat
 The highest-paying sectors continue to gate-keep leadership positions while the rest of the sector is evolving toward an even gender split in leadership. 
 
 ```{r}
-table( d$NTMAJ12, d$TYPE ) %>% 
+# dashes cause problems as column names
+d$TYPE <- gsub( "-", "_", d$TYPE )
+
+# re-order to group female transitions
+d$TYPE <- factor( d$TYPE, levels=c("F_F","M_F","F_M","M_M") )
+                  
+tab <- 
+  table( d$NTMAJ12, d$TYPE ) %>% 
   prop.table( margin=1 ) %>% 
   round(2) %>%
-  pander()
+  as.data.frame()
+
+names(tab) <- c("Subsector","TransitionType","N")
+
+df <- 
+tab %>% 
+  tidyr::spread( TransitionType, N ) %>%
+  mutate( All.f = F_F + M_F,
+          All.m = F_M + M_M ) %>% 
+  arrange( desc( All.m ) ) 
+
+df %>% pander()
 ```
 
+
+```{r}
+par( mar=c(0,4,0,0) )
+
+plot( df$All.m, pch=19, cex=2, type="b", 
+      ylim=c(0.4,1), bty="n",
+      xaxt="n", xlab="", 
+      ylab="Prob of New Hire Being Male")
+
+abline( h=0.5, col="gray" )
+
+text( 1:length(df$All.m), df$All.m, df$Subsector, 
+      srt=90, pos=3, offset=4 )
+```
 
 
 ### Reflexive Model 
