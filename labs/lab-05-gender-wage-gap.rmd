@@ -13,7 +13,8 @@ output:
 --- 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message = F, warning = F, cache = F )
+knitr::opts_chunk$set( echo = TRUE, message = F, warning = F )
+options(getClass.msg=FALSE)
 ```
 
 
@@ -389,6 +390,7 @@ d %>%
 **By Subsector:**
 
 ```{r}
+
 t1 <- 
 d %>% 
   group_by( NTMAJ12 ) %>% 
@@ -408,7 +410,7 @@ t2 %>%  pander()
 ```{r, fig.width=10, fig.height=8, echo=F}
 
 
-pos <- c(1,2,1,3,3,4,3,3,3,1,3)
+pos <- (c(1,2,1,3,3,4,3,3,3,1,3))[ - order(t1$prop.female)]
 
 sector <-  toupper(t1$NTMAJ12)
 
@@ -418,14 +420,15 @@ plot( 1-t1$prop.female, log10(t1$ave.sal),
       xlab="Proportion CEOs MALE", ylab="" )
 
 text( 1-t1$prop.female, log10(t1$ave.sal), sector, 
-      offset=1, col="gray30", pos=pos, cex=0.7 )
+      offset=1, col="gray30",  cex=0.7 )  # pos=pos,
 
 text( 1-t1$prop.female, log10(t1$ave.sal)-0.04, t2$ave.sal, 
-      offset=1, col="black", pos=pos, cex=0.8 )
+      offset=1, col="black",  cex=0.8 )  # pos=pos,
 
 abline( v=0.5, lty=2, col=gray(0.2,0.1), lwd=2 )
 abline( h=log10(median(d$TOTCOMP)), lty=2, col=gray(0.2,0.1), lwd=2 )
-text( 0.7, log10(median(d$TOTCOMP))-0.01, "Median Salary", 
+text( 0.7, log10(median(d$TOTCOMP))-0.01, 
+      paste0( "Median Salary ", dollarize( median(d$TOTCOMP) ) ), 
       col="gray80", cex=1.2, pos=3 )
 ```
 
